@@ -3,7 +3,7 @@ import '../assets/Blok/Blok.css'
 
 const Blok = () => {
   return (
-    <div>Blok</div>
+    <div className='text-40'>Blok</div>
   )
 }
 
