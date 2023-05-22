@@ -1,4 +1,13 @@
-import { DashboardIcon, MarketIcon, PortfolioIcon, TransactionIcon, NewsIcon, NotificationIcon, CommunityIcon, SettingsIcon, SupportIcon, FeedbackIcon  } from "./images/exports"
+import DashboardIcon from './images/dashboardIcon.svg'
+import MarketIcon from './images/MarketIcon.svg'
+import PortfolioIcon from './images/PortfolioIcon.svg'
+import TransactionIcon from './images/TransactionsIcon.svg'
+import NewsIcon from './images/NewsIcon.svg'
+import NotificationIcon from './images/NotificationIcon.svg'
+import CommunityIcon from './images/CommunityIcon.svg'
+import SettingsIcon from './images/SettingsIcon.svg'
+import SupportIcon from './images/GetSupportIcon.svg'
+import FeedbackIcon from './images/AddFeedbackIcon.svg'
 
 export const BlokMenuData = [
     {
@@ -40,7 +49,7 @@ export const BlokMenuData = [
                         menuIcon: CommunityIcon,
                     },
                     {
-                        menuItem: 'PorSettingstfolio',
+                        menuItem: 'Settings',
                         menuIcon: SettingsIcon,
                     }
                 ]
