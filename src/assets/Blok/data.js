@@ -1,4 +1,15 @@
-import { DashboardIcon, MarketIcon, PortfolioIcon, TransactionIcon, NewsIcon, NotificationIcon, CommunityIcon, SettingsIcon, SupportIcon, FeedbackIcon  } from "./images/exports"
+import DashboardIcon from './images/dashboardIcon.svg'
+import MarketIcon from './images/MarketIcon.svg'
+import PortfolioIcon from './images/PortfolioIcon.svg'
+import TransactionIcon from './images/TransactionsIcon.svg'
+import NewsIcon from './images/NewsIcon.svg'
+import NotificationIcon from './images/NotificationIcon.svg'
+import CommunityIcon from './images/CommunityIcon.svg'
+import SettingsIcon from './images/SettingsIcon.svg'
+import SupportIcon from './images/GetSupportIcon.svg'
+import FeedbackIcon from './images/AddFeedbackIcon.svg'
+import LightModeIcon from './images/LightModeIcon.svg'
+import DarkModeIcon from './images/DarkModeIcon.svg'
 
 export const BlokMenuData = [
     {
@@ -40,7 +51,7 @@ export const BlokMenuData = [
                         menuIcon: CommunityIcon,
                     },
                     {
-                        menuItem: 'PorSettingstfolio',
+                        menuItem: 'Settings',
                         menuIcon: SettingsIcon,
                     }
                 ]
@@ -55,7 +66,18 @@ export const BlokMenuData = [
                 menuItem: 'Add Feedback',
                 menuIcon: FeedbackIcon,
             },
+        ],
+        themeSwitch: [
+            {
+                theme: 'Light',
+                themeIcon: LightModeIcon,
+            },
+            {
+                theme: 'Dark',
+                themeIcon: DarkModeIcon,
+            },
         ]
+
 
     },
 ]
