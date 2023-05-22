@@ -4,10 +4,10 @@ import BlokDashboard from './BlokDashboard'
 
 const BlokMain = () => {
   return (
-    <div className='flex flex-col'>
+    <main className='flex flex-col'>
         <BlokNavbar />
         <BlokDashboard />
-    </div>
+    </main>
   )
 }
 

@@ -1,9 +1,9 @@
 import React from 'react'
 
 const BlokMenu = () => {
-  return (
-    <div>BlokMenu</div>
-  )
+    return (
+        <nav>BlokMenu</nav>
+    )
 }
 
 export default BlokMenu
