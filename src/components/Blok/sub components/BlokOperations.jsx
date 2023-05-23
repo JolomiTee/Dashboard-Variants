@@ -2,7 +2,7 @@ import React from 'react'
 import Tether from '../../../assets/Blok/images/Tether.svg'
 import ChevronFilledDown from '../../../assets/Blok/images/ChevronFilledDown.svg'
 import IndrasArrow from '../../../assets/Blok/images/IndrasArrow.svg'
-import Ethereum from '../../../assets/Blok/images/ethereum.svg'
+import Ethereum from '../../../assets/Blok/images/Ethereum.svg'
 const BlokOperations = () => {
     return (
         <div className='border border-blok-color rounded-16 p-4 grid gap-5 sm:flex sm:p-6 md:grid'>
