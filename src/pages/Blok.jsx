@@ -1,9 +1,7 @@
-import React from 'react'
 import '../assets/Blok/Blok.css'
 import BlokMenu from '../components/Blok/BlokMenu'
 import BlokMain from '../components/Blok/BlokMain'
 import { useState, useEffect } from 'react'
-
 
 const Blok = () => {
     const [screenSize, setScreenSize] = useState(undefined)
@@ -28,13 +26,22 @@ const Blok = () => {
         }
 
     }, [screenSize])
+
+
     return (
         <div className='flex'>
-            {activeMenu && <BlokMenu screenSize={screenSize} activeMenu={activeMenu} setActiveMenu={setActiveMenu} />}
+            {activeMenu &&
+                <BlokMenu
+                    screenSize={screenSize}
+                    activeMenu={activeMenu} setActiveMenu={setActiveMenu}
+                />
+            }
 
-            <BlokMain activeMenu={activeMenu} setActiveMenu={setActiveMenu} />
+            <BlokMain
+                activeMenu={activeMenu}
+                setActiveMenu={setActiveMenu}
+            />
         </div>
-
     )
 }
 

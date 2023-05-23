@@ -4,8 +4,11 @@ import BlokDashboard from './BlokDashboard'
 
 const BlokMain = ({activeMenu, setActiveMenu}) => {
   return (
-    <main className='flex flex-col flex-wrap bg-white w-full'>
-        <BlokNavbar activeMenu={activeMenu} setActiveMenu={setActiveMenu} />
+    <main className='bg-white w-full'>
+        <BlokNavbar
+            activeMenu={activeMenu}
+            setActiveMenu={setActiveMenu}
+        />
         <BlokDashboard />
     </main>
   )
