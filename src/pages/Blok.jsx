@@ -30,7 +30,7 @@ const Blok = () => {
     }, [screenSize])
     return (
         <div className='flex'>
-            {activeMenu && <BlokMenu setActiveMenu={setActiveMenu} />}
+            {activeMenu && <BlokMenu screenSize={screenSize} activeMenu={activeMenu} setActiveMenu={setActiveMenu} />}
 
             <BlokMain activeMenu={activeMenu} setActiveMenu={setActiveMenu} />
         </div>

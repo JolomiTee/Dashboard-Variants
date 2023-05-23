@@ -2,7 +2,7 @@ import BlokLogo from '../../assets/Blok/images/logoLight.svg'
 import { BlokMenuData } from '../../assets/Blok/data'
 import {AiFillCloseSquare} from 'react-icons/ai'
 
-const BlokMenu = ({setActiveMenu}) => {
+const BlokMenu = ({screenSize, activeMenu, setActiveMenu}) => {
 
     return (
 
@@ -10,9 +10,11 @@ const BlokMenu = ({setActiveMenu}) => {
             <div className="logo pb-14 ps-3">
                 <img src={BlokLogo} className='w-[73px] h-[24px] block' alt="Blok logo" />
             </div>
-            <button className='absolute'>
-                <AiFillCloseSquare />
-            </button>
+            {activeMenu && screenSize <= 1023 && (
+                <button className='absolute top-4 right-5 md:top-[20px]' onClick={() => (setActiveMenu(prev => !prev))}>
+                    <AiFillCloseSquare style={{width: '30px', height:'30px', fill: '#54AE94',}} />
+                </button>
+            )}
 
 
             {
