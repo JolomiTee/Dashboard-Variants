@@ -1,9 +1,9 @@
-import React from 'react'
 import BlokLogo from '../../assets/Blok/images/logoLight.svg'
 import { BlokMenuData } from '../../assets/Blok/data'
+
 const BlokMenu = () => {
     return (
-        <nav className='w-[300px] p-[47px] border-solid border-r border-blok-color h-screen overflow-y-scroll'>
+        <nav className='absolute md:relative w-[250px] md:w-[340px] p-[20px] md:p-[42px] border-solid border-r border-blok-color h-screen overflow-y-scroll z-[100] bg-white'>
             <div className="logo pb-14 ps-3">
                 <img src={BlokLogo} className='w-[73px] h-[24px] block' alt="Blok logo" />
             </div>
@@ -16,7 +16,7 @@ const BlokMenu = () => {
                             {menus.menuGroupItems.map((items, index) => (
                                 <li className="text-blok-grey text-16 my-1">
                                     <button className="flex ps-3 gap-5 items-center justify-start h-[45px] w-full hover:bg-slate-200 hover:rounded-8 hover:scale-[1.025]">
-                                        <img src={items.menuIcon} alt={items.menuIcon} className='hover:stroke-blok-dark-green'/>
+                                        <img src={items.menuIcon} alt={items.menuIcon} className='hover:stroke-blok-dark-green' />
                                         <span>{items.menuItem}</span>
                                     </button>
                                 </li>
@@ -31,17 +31,17 @@ const BlokMenu = () => {
                     {
                         BlokMenuData[0].supportMenu.map((menu, index) => (
                             <li className="text-blok-grey text-16 my-1">
-                                    <button className="flex ps-3 gap-5 items-center justify-start h-[45px] w-full hover:bg-slate-200 hover:rounded-8 hover:scale-[1.025]">
-                                        <img src={menu.menuIcon} alt={menu.menuIcon} className='hover:stroke-blok-dark-green'/>
-                                        <span>{menu.menuItem}</span>
-                                    </button>
-                                </li>
+                                <button className="flex ps-3 gap-5 items-center justify-start h-[45px] w-full hover:bg-slate-200 hover:rounded-8 hover:scale-[1.025]">
+                                    <img src={menu.menuIcon} alt={menu.menuIcon} className='hover:stroke-blok-dark-green' />
+                                    <span>{menu.menuItem}</span>
+                                </button>
+                            </li>
                         ))
                     }
                 </ul>
             </div>
 
-            <div className="border border-blok-dark px-2 p-1 flex justify-between rounded-8 gap-1">
+            <div className="border border-blok-dark px-2 p-1 flex justify-between rounded-8 gap-1 mb-5">
                 {
                     BlokMenuData[0].themeSwitch.map((themes, index) => (
                         <button key={index} className='text-14 flex gap-2 justify-start items-center py-2 px-4 rounded-8 text-blok-grey hover:bg-slate-200 hover:rounded-8 hover:scale-[1.025]'>
@@ -51,14 +51,6 @@ const BlokMenu = () => {
                     ))
                 }
             </div>
-
-            {/* <div id="buttonGroup" className='p-2 flex justify-center border border-blok-dark rounded-8'>
-                <button className='text-16 flex gap-2 justify-start items-center p-2'>
-                    <img src={LightModeIcon} alt="Lightmode" />
-                    <span>Light</span>
-                </button>
-            </div> */}
-
         </nav>
     )
 }

@@ -6,7 +6,7 @@ import BlokMain from '../components/Blok/BlokMain'
 const Blok = () => {
 
     return (
-        <div className='text-40 flex gap-20'>
+        <div className='flex'>
             <BlokMenu />
             <BlokMain />
         </div>
