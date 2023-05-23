@@ -6,13 +6,13 @@ import BlokTransactions from './sub components/BlokTransactions'
 
 const BlokDashboard = () => {
   return (
-    <div className='px-3 md:px-[32px] py-3 md:py-[29px] flex flex-wrap gap-20'>
-        <div className="flex flex-col gap-20">
+    <div className='px-4 md:px-[32px] py-5 md:py-[29px]'>
+        <div className="flex flex-col xl:flex-row lg:gap-8">
             <BlokAssetOverview />
-            <BlokAnalytics />
-        </div>
-        <div className="flex flex-col gap-20">
             <BlokOperations />
+        </div>
+        <div className="border">
+            <BlokAnalytics />
             <BlokTransactions />
         </div>
     </div>
