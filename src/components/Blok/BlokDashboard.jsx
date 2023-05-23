@@ -7,12 +7,12 @@ import BlokTransactions from './sub components/BlokTransactions'
 const BlokDashboard = () => {
   return (
     <div className='px-4 md:px-[32px] py-5 md:py-[29px]'>
-        <div className="flex flex-wrap flex-col lg:flex-row lg:gap-10">
+        <div className="flex flex-col xl:flex-row lg:gap-8">
             <BlokAssetOverview />
-            <BlokAnalytics />
+            <BlokOperations />
         </div>
         <div className="border">
-            <BlokOperations />
+            <BlokAnalytics />
             <BlokTransactions />
         </div>
     </div>

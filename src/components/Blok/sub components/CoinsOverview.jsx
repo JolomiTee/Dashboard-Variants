@@ -6,7 +6,7 @@ import StockDecrease from '../../../assets/Blok/images/arrow-down.svg'
 
 const CoinsOverview = () => {
     return (
-        <div className="flex flex-wrap gap-5 justify-center">
+        <div className="flex flex-wrap lg:flex-nowrap lg:w-full gap-5 xl:gap-8 justify-center">
             {
                 BlokCoinOverview.map((item, index) => (
                     <div className="border rounded-16 p-3 flex flex-col gap-2">
