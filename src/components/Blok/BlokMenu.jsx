@@ -3,7 +3,7 @@ import { BlokMenuData } from '../../assets/Blok/data'
 
 const BlokMenu = () => {
     return (
-        <nav className='absolute md:relative w-[250px] md:w-[300px] p-[20px] md:p-[42px] border-solid border-r border-blok-color h-screen overflow-y-scroll z-[100] bg-white'>
+        <nav className='absolute md:relative w-[250px] md:w-[340px] p-[20px] md:p-[42px] border-solid border-r border-blok-color h-screen overflow-y-scroll z-[100] bg-white'>
             <div className="logo pb-14 ps-3">
                 <img src={BlokLogo} className='w-[73px] h-[24px] block' alt="Blok logo" />
             </div>

@@ -4,7 +4,7 @@ import BlokDashboard from './BlokDashboard'
 
 const BlokMain = () => {
   return (
-    <main className='flex flex-col bg-white'>
+    <main className='flex flex-col flex-wrap bg-white w-full'>
         <BlokNavbar />
         <BlokDashboard />
     </main>
