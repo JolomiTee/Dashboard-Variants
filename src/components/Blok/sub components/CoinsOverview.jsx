@@ -9,7 +9,7 @@ const CoinsOverview = () => {
         <div className="flex flex-wrap lg:flex-nowrap lg:w-full gap-5 xl:gap-8 justify-center">
             {
                 BlokCoinOverview.map((item, index) => (
-                    <div className="border rounded-16 p-3 flex flex-col gap-2 xl:gap-4">
+                    <div key={index} className="border rounded-16 p-3 flex flex-col gap-2 xl:gap-4">
                         <div className='font-bold font-cabinet text-blok-dark'>
                             <p className='text-[20px] xl:text-24'>{item.amount}{item.cryptocurrency}</p>
                             <span className='text-14 leading-[19px]'>$4,9000</span>
