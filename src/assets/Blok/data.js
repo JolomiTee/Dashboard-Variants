@@ -123,3 +123,38 @@ export const BlokCoinOverview = [
         determine: false
     },
 ]
+
+export const BlokTransactionsData = [
+    {
+        increase: true,
+        type: 'Bitcoin',
+        symbol: 'BTC',
+        date: '02 Oct 2022, 10:02 PM',
+        cryptocurrencyValue: 0.0982,
+        marketValue: 480.00,
+    },
+    {
+        increase: false,
+        type: 'Ethereum',
+        symbol: 'ETH',
+        date: '20 Oct 2022, 10:19 AM',
+        cryptocurrencyValue: 0.0982,
+        marketValue: 180.00,
+    },
+    {
+        increase: false,
+        type: 'Cardona',
+        symbol: 'ADA',
+        date: '25 Oct 2022, 03:19 AM',
+        cryptocurrencyValue: 0.0982,
+        marketValue: 1080.52,
+    },
+    {
+        increase: false,
+        type: 'Cardona',
+        symbol: 'ADA',
+        date: '25 Oct 2022, 03:25 AM',
+        cryptocurrencyValue: 0.0982,
+        marketValue: 1080.52,
+    },
+]
