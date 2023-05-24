@@ -2,6 +2,7 @@ import '../assets/Blok/Blok.css'
 import BlokMenu from '../components/Blok/BlokMenu'
 import BlokMain from '../components/Blok/BlokMain'
 import { useState, useEffect } from 'react'
+import { BlokContextProvider } from '../context/BlokContext'
 
 const Blok = () => {
     const [screenSize, setScreenSize] = useState(undefined)
@@ -29,19 +30,21 @@ const Blok = () => {
 
 
     return (
-        <div className='flex'>
-            {activeMenu &&
-                <BlokMenu
-                    screenSize={screenSize}
-                    activeMenu={activeMenu} setActiveMenu={setActiveMenu}
-                />
-            }
+        <BlokContextProvider>
+            <div className='flex'>
+                {activeMenu &&
+                    <BlokMenu
+                        screenSize={screenSize}
+                        activeMenu={activeMenu} setActiveMenu={setActiveMenu}
+                    />
+                }
 
-            <BlokMain
-                activeMenu={activeMenu}
-                setActiveMenu={setActiveMenu}
-            />
-        </div>
+                <BlokMain
+                    activeMenu={activeMenu}
+                    setActiveMenu={setActiveMenu}
+                />
+            </div>
+        </BlokContextProvider>
     )
 }
 

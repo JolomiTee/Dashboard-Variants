@@ -1,8 +1,10 @@
 import BlokLogo from '../../assets/Blok/images/logoLight.svg'
 import { BlokMenuData } from '../../assets/Blok/data'
 import {AiFillCloseSquare} from 'react-icons/ai'
+import { useBlokContext } from '../../context/BlokContext'
 
 const BlokMenu = ({screenSize, activeMenu, setActiveMenu}) => {
+    const {currentMenu, setCurrentMenu} = useBlokContext()
 
     return (
 
@@ -24,7 +26,10 @@ const BlokMenu = ({screenSize, activeMenu, setActiveMenu}) => {
                         <ul className="m-0 p-0 flex flex-col">
                             {menus.menuGroupItems.map((items, index) => (
                                 <li className="text-blok-grey text-16 my-1" key={index}>
-                                    <button className={`flex ps-3 gap-5 items-center justify-start h-[45px] w-full hover:bg-slate-200 hover:rounded-8 hover:scale-[1.025]`}>
+                                    <button
+                                        className={`flex ps-3 gap-5 items-center justify-start h-[45px] w-full hover:bg-slate-200 hover:rounded-8 hover:scale-[1.025]`}
+                                        onClick={(e) => setCurrentMenu(items.menuItem)}
+                                    >
                                         <img src={items.menuIcon} alt={items.menuIcon} />
                                         <span>{items.menuItem}</span>
                                     </button>
@@ -40,7 +45,10 @@ const BlokMenu = ({screenSize, activeMenu, setActiveMenu}) => {
                     {
                         BlokMenuData[0].supportMenu.map((menu, index) => (
                             <li className="text-blok-grey text-16 my-1" key={index}>
-                                <button className="flex ps-3 gap-5 items-center justify-start h-[45px] w-full hover:bg-slate-200 hover:rounded-8 hover:scale-[1.025]">
+                                <button
+                                    className="flex ps-3 gap-5 items-center justify-start h-[45px] w-full hover:bg-slate-200 hover:rounded-8 hover:scale-[1.025]"
+                                    onClick={(e) => setCurrentMenu(menu.menuItem)}
+                                >
                                     <img src={menu.menuIcon} alt={menu.menuIcon} className='hover:stroke-blok-dark-green' />
                                     <span>{menu.menuItem}</span>
                                 </button>
