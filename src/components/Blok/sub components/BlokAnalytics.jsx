@@ -1,5 +1,6 @@
 import React from 'react'
 import AnalysisGraph from '../../../assets/Blok/images/AnalysisGraph.svg'
+import SplineChart from '../charts/SplineChart'
 
 const BlokAnalytics = () => {
     return (
@@ -15,8 +16,9 @@ const BlokAnalytics = () => {
                     <button className='px-5 py-1 hidden sm:block'>ALL</button>
                 </div>
             </div>
-            <div className=" mt-10">
-                <img src={AnalysisGraph} alt="analysis graph" className='w-full' />
+            <div className="mt-10">
+                {/* <img src={AnalysisGraph} alt="analysis graph" className='w-full' /> */}
+                <SplineChart />
             </div>
         </div>
     )
