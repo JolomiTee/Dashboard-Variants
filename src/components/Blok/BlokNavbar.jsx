@@ -11,12 +11,12 @@ const BlokNavbar = ({ activeMenu, setActiveMenu }) => {
     const { currentMenu } = useBlokContext()
     const [subNavigation, setSubNavigation] = useState(false)
     return (
-        <div className='px-4 md:px-[40px] xl:px-[32px] py-3 xl:py-[29px] border-b border-blok-color w-100 flex justify-between items-center max-h-[90px] fixed lg:relative w-full bg-white'>
+        <div className='px-4 md:px-[40px] xl:px-[32px] py-3 xl:py-[29px] border-b border-blok-color w-100 flex justify-between items-center max-h-[90px] fixed w-full bg-white navbar'>
             <div className='flex items-center justify-start'>
                 <button onClick={() => setActiveMenu((prevMenuState) => !prevMenuState)}>
                     <BsLayoutTextSidebar className='lg:hidden me-5 hover:rotate-180 hover:shadow' style={{ width: '25px', height: '25px' }} />
                 </button>
-                <h1 className='font-cabinet font-bold text-24 leading-[30px] w-max'>{currentMenu}</h1>
+                <h1 className='font-cabinet font-bold text-24 leading-[30px]'>{currentMenu}</h1>
             </div>
 
 
