@@ -5,7 +5,7 @@ import BlockBalls from '../../assets/Blok/images/blokBalls.svg'
 import SearchIcon from '../../assets/Blok/images/SearchIcon.svg'
 import ProfilePicture from '../../assets/Blok/images/ProfilePicture.png'
 import ChevronFilledDown from '../../assets/Blok/images/ChevronFilledDown.svg'
-
+import Tether from '../../assets/Blok/images/Tether.svg'
 
 const BlokNavbar = ({ activeMenu, setActiveMenu }) => {
     const { currentMenu } = useBlokContext()
@@ -33,16 +33,18 @@ const BlokNavbar = ({ activeMenu, setActiveMenu }) => {
 
                 <div className="flex items-center relative">
                     <img src={SearchIcon} alt="" className='absolute z-[5] ms-2 w-[16px] h-[16px]' />
-                    <input type="search" name="search" id="search" className='border border-blok-color py-[5px] ps-[35px] pe-[10px] rounded-8 relative focus:ring-0 focus:outline-transparent' />
+                    <input type="search" name="search" id="search" className='border border-blok-color py-[5px] ps-[35px] pe-[10px] rounded-8 relative focus:ring-0 focus:outline-transparent h-10' />
                 </div>
-                <div className="border border-blok-color p-1 rounded-8 px-2">
-                    <select name="currency" id="currency">
-                        <option defaultValue='USDT'>USDT</option>
-                    </select>
+                <div className="border border-blok-color p-1 rounded-8 px-2 flex justify-center items-center gap-2 h-10">
+                    <img src={Tether} alt="" className='w-5 h-5' />
+                    <span className='flex flex-shrink-0'>USDT</span>
+                    <button>
+                        <img src={ChevronFilledDown} alt="coin" />
+                    </button>
                 </div>
-                <div className="border border-blok-color p-1 rounded-8 px-2 flex justify-center items-center gap-2">
-                    <img src={ProfilePicture} alt="" className='w-8' />
-                    <span>Jolomi Taiwo</span>
+                <div className="border border-blok-color p-1 rounded-8 px-2 flex justify-center items-center gap-2 h-10">
+                    <img src={ProfilePicture} alt="" className='w-7 h-7' />
+                    <span className='flex flex-shrink-0'>Jolomi Taiwo</span>
                     <button>
                         <img src={ChevronFilledDown} alt="" />
                     </button>

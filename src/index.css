@@ -22,7 +22,7 @@ body{
 @tailwind components;
 @tailwind utilities;
 
-@media (min-width: 1023px) {
+@media (min-width: 1024px) {
     .navbar{
         max-width: calc(100% - 300px);
     }
