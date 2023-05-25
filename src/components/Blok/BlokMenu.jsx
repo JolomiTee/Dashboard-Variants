@@ -1,10 +1,10 @@
 import BlokLogo from '../../assets/Blok/images/logoLight.svg'
 import { BlokMenuData } from '../../assets/Blok/data'
-import {AiFillCloseSquare} from 'react-icons/ai'
+import { AiFillCloseSquare } from 'react-icons/ai'
 import { useBlokContext } from '../../context/BlokContext'
 
-const BlokMenu = ({screenSize, activeMenu, setActiveMenu}) => {
-    const {currentMenu, setCurrentMenu} = useBlokContext()
+const BlokMenu = ({ screenSize, activeMenu, setActiveMenu }) => {
+    const { currentMenu, setCurrentMenu } = useBlokContext()
 
     return (
         <div className='h-screen'>
@@ -14,7 +14,7 @@ const BlokMenu = ({screenSize, activeMenu, setActiveMenu}) => {
                 </div>
                 {activeMenu && screenSize <= 1023 && (
                     <button className='absolute top-4 right-5 md:top-[20px]' onClick={() => (setActiveMenu(prev => !prev))}>
-                        <AiFillCloseSquare style={{width: '30px', height:'30px', fill: '#54AE94',}} />
+                        <AiFillCloseSquare style={{ width: '30px', height: '30px', fill: '#54AE94', }} />
                     </button>
                 )}
 
@@ -27,10 +27,10 @@ const BlokMenu = ({screenSize, activeMenu, setActiveMenu}) => {
                                 {menus.menuGroupItems.map((items, index) => (
                                     <li className="text-blok-grey text-16 my-1" key={index}>
                                         <button
-                                            className={`flex ps-3 gap-5 items-center justify-start h-[45px] w-full hover:bg-slate-200 hover:rounded-8 hover:scale-[1.025]`}
+                                            className={`flex ps-3 gap-5 items-center justify-start h-[45px] w-full hover:bg-slate-200 hover:rounded-8 hover:scale-[1.025] ${currentMenu === items.menuItem ? 'bg-blok-green font-bold text-blok-dark rounded-8' : ''}`}
                                             onClick={(e) => setCurrentMenu(items.menuItem)}
                                         >
-                                            <img src={items.menuIcon} alt={items.menuIcon} />
+                                            <img src={items.menuIcon} alt={items.menuIcon} className='' />
                                             <span>{items.menuItem}</span>
                                         </button>
                                     </li>
@@ -46,7 +46,7 @@ const BlokMenu = ({screenSize, activeMenu, setActiveMenu}) => {
                             BlokMenuData[0].supportMenu.map((menu, index) => (
                                 <li className="text-blok-grey text-16 my-1" key={index}>
                                     <button
-                                        className="flex ps-3 gap-5 items-center justify-start h-[45px] w-full hover:bg-slate-200 hover:rounded-8 hover:scale-[1.025]"
+                                        className={`flex ps-3 gap-5 items-center justify-start h-[45px] w-full hover:bg-slate-200 hover:rounded-8 hover:scale-[1.025] ${currentMenu === menu.menuItem ? 'bg-blok-green font-bold text-blok-dark rounded-8' : ''}`}
                                         onClick={(e) => setCurrentMenu(menu.menuItem)}
                                     >
                                         <img src={menu.menuIcon} alt={menu.menuIcon} className='hover:stroke-blok-dark-green' />

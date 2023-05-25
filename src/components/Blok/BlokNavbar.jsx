@@ -16,7 +16,7 @@ const BlokNavbar = ({ activeMenu, setActiveMenu }) => {
                 <button onClick={() => setActiveMenu((prevMenuState) => !prevMenuState)}>
                     <BsLayoutTextSidebar className='lg:hidden me-5 hover:rotate-180 hover:shadow' style={{ width: '25px', height: '25px' }} />
                 </button>
-                <h1 className='font-cabinet font-bold text-24 leading-[30px]'>{currentMenu}</h1>
+                <h1 className='font-cabinet font-bold text-24 leading-[30px] w-max'>{currentMenu}</h1>
             </div>
 
 
