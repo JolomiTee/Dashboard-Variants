@@ -4,11 +4,13 @@ const BlokContext = createContext();
 
 export const BlokContextProvider = ({children}) => {
     const [currentMenu, setCurrentMenu] = useState('Dashboard')
+    const [currentRange, setCurrentRange] = useState('3HRS')
 
     return (
         <BlokContext.Provider
             value={{
-                currentMenu, setCurrentMenu
+                currentMenu, setCurrentMenu,
+                currentRange, setCurrentRange
             }}
         >
             {children}

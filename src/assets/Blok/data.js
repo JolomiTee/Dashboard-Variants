@@ -158,3 +158,24 @@ export const BlokTransactionsData = [
         marketValue: 1080.52,
     },
 ]
+
+export const BlokRangeSelectors = [
+    {
+        range_value: '3HRS',
+        text_value: '1D'
+    },
+    {
+        range_value: '12HRS',
+        text_value: '7D'
+    },
+    {
+        range_value: '5DAYS',
+        text_value: '1M'
+    },
+    {
+        range_value: '10DAYS',
+        text_value: '2M'
+    },
+]
+
+export const BlokCurrencyData = []
