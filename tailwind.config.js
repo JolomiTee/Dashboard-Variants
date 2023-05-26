@@ -33,6 +33,7 @@ module.exports = {
                 'blok-green': '#EFF7F4',
                 'blok-component-grey': '#F6F6F6',
                 'dark-mode': '#070C0F',
+                'searchbar-dark': '#3A3A3A80'
 			},
 			borderWidth: {
 				1: "1px",
