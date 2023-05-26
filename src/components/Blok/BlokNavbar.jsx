@@ -8,7 +8,7 @@ import ChevronFilledDown from '../../assets/Blok/images/ChevronFilledDown.svg'
 import Tether from '../../assets/Blok/images/Tether.svg'
 
 const BlokNavbar = ({ activeMenu, setActiveMenu }) => {
-    const { currentMenu } = useBlokContext()
+    const { currentMenu, appTheme } = useBlokContext()
     const [subNavigation, setSubNavigation] = useState(false)
     return (
         <div className='px-4 md:px-[40px] xl:px-[32px] py-3 xl:py-[29px] border-b border-blok-color w-100 flex justify-between items-center max-h-[90px] fixed w-full bg-white navbar'>
