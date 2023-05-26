@@ -4,8 +4,10 @@ import { AiFillCloseSquare } from 'react-icons/ai'
 import { useBlokContext } from '../../context/BlokContext'
 
 const BlokMenu = ({ screenSize, activeMenu, setActiveMenu }) => {
-    const { currentMenu, setCurrentMenu } = useBlokContext()
 
+    const { currentMenu, setCurrentMenu, appTheme, setAppTheme } = useBlokContext()
+
+    console.log(appTheme)
     return (
         <div className='h-screen'>
             <nav className='fixed w-[250px] md:w-[300px] lg:relative p-[20px] md:p-[42px] border-solid border-r border-blok-color h-screen overflow-y-scroll z-[100] bg-white'>
@@ -61,8 +63,13 @@ const BlokMenu = ({ screenSize, activeMenu, setActiveMenu }) => {
                 <div className="border border-blok-dark px-2 p-1 flex justify-between rounded-8 gap-1 mb-5">
                     {
                         BlokMenuData[0].themeSwitch.map((themes, index) => (
-                            <button key={index} className='text-14 flex gap-2 justify-start items-center py-2 px-4 rounded-8 text-blok-grey hover:bg-slate-200 hover:rounded-8 hover:scale-[1.025]'>
-                                <img src={themes.themeIcon} alt="Lightmode" className='' />
+                            <button
+                                key={index}
+                                className={`${appTheme === themes.value ? 'bg-blok-dark-green text-white' : ''} text-14 flex gap-2 justify-start items-center py-2 px-4 rounded-8 text-blok-grey hover:bg-slate-200 hover:rounded-8 hover:scale-[1.025]`}
+                                value={themes.value}
+                                onClick={(e) => setAppTheme(themes.value)}
+                            >
+                                <img src={themes.themeIcon} alt="Lightmode"/>
                                 <span>{themes.theme}</span>
                             </button>
                         ))

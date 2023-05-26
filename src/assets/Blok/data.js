@@ -77,10 +77,12 @@ export const BlokMenuData = [
             {
                 theme: 'Light',
                 themeIcon: LightModeIcon,
+                value: 'light'
             },
             {
                 theme: 'Dark',
                 themeIcon: DarkModeIcon,
+                value: 'dark'
             },
         ]
 

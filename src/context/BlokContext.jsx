@@ -3,6 +3,7 @@ import { createContext, useContext, useState } from "react";
 const BlokContext = createContext();
 
 export const BlokContextProvider = ({children}) => {
+    const [appTheme, setAppTheme] = useState('light')
     const [currentMenu, setCurrentMenu] = useState('Dashboard')
     const [currentRange, setCurrentRange] = useState('3HRS')
 
@@ -10,7 +11,8 @@ export const BlokContextProvider = ({children}) => {
         <BlokContext.Provider
             value={{
                 currentMenu, setCurrentMenu,
-                currentRange, setCurrentRange
+                currentRange, setCurrentRange,
+                appTheme, setAppTheme,
             }}
         >
             {children}
