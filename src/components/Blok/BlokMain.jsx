@@ -4,7 +4,7 @@ import BlokDashboard from './BlokDashboard'
 
 const BlokMain = ({activeMenu, setActiveMenu}) => {
   return (
-    <main className='bg-white relative w-full h-screen overflow-scroll'>
+    <main className='bg-white dark:bg-dark-mode relative w-full h-screen overflow-scroll'>
         <BlokNavbar
             activeMenu={activeMenu}
             setActiveMenu={setActiveMenu}
