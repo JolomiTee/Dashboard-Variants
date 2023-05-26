@@ -8,7 +8,7 @@ const BlokTransactions = () => {
         <div className='border border-blok-color p-4 rounded-16 lg:w-[300px] xl:min-w-[390px] xl:mt-10'>
 
             <div className="flex justify-between items-center md:gap-[60px] mb-5">
-                <p className='text-[20px] text-blok-dark font-cabinet font-bold'>Transaction</p>
+                <p className='text-[20px] text-blok-dark font-cabinet font-bold dark:text-white'>Transaction</p>
                 <span className='text-14 w-max text-blok-grey flex'>See more <img src={ChevronRight} alt="" /></span>
             </div>
 

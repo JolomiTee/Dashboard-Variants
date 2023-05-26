@@ -11,12 +11,12 @@ const TransactionItems = ({ increase, type, symbol, date, cryptocurrencyValue, m
             </span>
             <div className="grid sm:flex sm:justify-between sm:flex-grow sm:gap-3">
                 <div>
-                    <span className='text-blok-dark font-cabinet font-bold'>{type}</span>
+                    <span className='text-blok-dark font-cabinet font-bold dark:text-white'>{type}</span>
                     <p className='text-blok-grey text-14 font-medium'>{date}</p>
 
                 </div>
                 <div className="flex sm:grid">
-                    <span className='text-blok-dark font-cabinet font-bold'>{cryptocurrencyValue}&nbsp;{symbol}</span>
+                    <span className='text-blok-dark font-cabinet font-bold dark:text-white'>{cryptocurrencyValue}&nbsp;{symbol}</span>
 
                     <span className='sm:hidden'>&nbsp;~&nbsp;</span>
 
