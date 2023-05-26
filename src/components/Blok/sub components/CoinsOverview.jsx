@@ -83,7 +83,7 @@ const CoinsOverview = () => {
             {
                 BlokCoinOverview.map((item, index) => (
                     <div key={index} className="border rounded-16 p-3 flex flex-col gap-2 xl:gap-4">
-                        <div className='font-bold font-cabinet text-blok-dark'>
+                        <div className='font-bold font-cabinet text-blok-dark dark:text-white'>
                             <p className='text-[20px] xl:text-24'>{item.amount}{item.cryptocurrency}</p>
                             <span className='text-14 leading-[19px]'>$4,9000</span>
                         </div>
@@ -94,8 +94,8 @@ const CoinsOverview = () => {
                             <div className="">
                                 <img src={item.cryptocurrencyImage} alt="" className='w-[40px] h-[40px]' />
                             </div>
-                            <div className="flex flex-col">
-                                <p className='font-bold font-cabinet text-blok-dark'>{item.pair}</p>
+                            <div className="flex flex-col ">
+                                <p className='font-bold font-cabinet text-blok-dark dark:text-white'>{item.pair}</p>
                                 <p
                                     className={`leading-[10px] flex items-center
                                     ${item.determine ? 'text-blok-rate-green' : 'text-blok-rate-red'}`}
