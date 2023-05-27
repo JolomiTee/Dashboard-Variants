@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require('tailwindcss/defaultTheme')
 module.exports = {
 	content: ["./src/**/*.{js,jsx,ts,tsx}"],
 	darkMode: "class",
@@ -8,6 +9,10 @@ module.exports = {
 			'sp-display': ["SP Pro Display", "sans-serif"],
 		},
 		extend: {
+            screens: {
+                'mdl': '896px',
+                ...defaultTheme.screens,
+            },
 			fontSize: {
 				12: "12px",
 				14: "14px",
