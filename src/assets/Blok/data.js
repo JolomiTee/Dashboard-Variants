@@ -100,8 +100,8 @@ export const BlokOperation = [
 				value: "sell",
 			},
 			{
-				operation: "Exchange",
-				value: "exchange",
+				operation: "Convert",
+				value: "convert",
 			},
 		],
 	},

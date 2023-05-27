@@ -1,5 +1,4 @@
 import React from 'react'
-import Tether from '../../../assets/Blok/images/Tether.svg'
 import ChevronFilledDown from '../../../assets/Blok/images/ChevronFilledDown.svg'
 import IndrasArrow from '../../../assets/Blok/images/IndrasArrow.svg'
 import Ethereum from '../../../assets/Blok/images/Ethereum.svg'
@@ -60,7 +59,7 @@ const BlokOperations = () => {
                             </span>
                         </button>
 
-                        <input type="number" name="asset_recieved" id="asset_recieved" className='h-10 px-3 text-end text-16 rounded-8 focus:ring-0 focus:outline-transparent focus:border-transparent border-1' value={3.123}/>
+                        <input type="number" name="asset_recieved" id="asset_recieved" className='h-10 px-3 text-end text-16 rounded-8 focus:ring-0 focus:outline-transparent focus:border-transparent border-1' value={3.123} />
                     </div>
                     <span className='font-cabinet font-bold text-blok-grey md:absolute md:translate-x-[200%] xl:relative xl:translate-x-0'>{`1${' ETH '} = ${' $1300.08'}`}</span>
                 </div>
