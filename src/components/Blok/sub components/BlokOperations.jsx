@@ -1,11 +1,10 @@
 import React from 'react'
-import Tether from '../../../assets/Blok/images/Tether.svg'
 import ChevronFilledDown from '../../../assets/Blok/images/ChevronFilledDown.svg'
 import IndrasArrow from '../../../assets/Blok/images/IndrasArrow.svg'
 import Ethereum from '../../../assets/Blok/images/Ethereum.svg'
 import { useBlokContext } from '../../../context/BlokContext'
 import { BlokOperation } from '../../../assets/Blok/data'
-
+import {BsCurrencyDollar} from 'react-icons/bs'
 
 const BlokOperations = () => {
     const {currentOperation, setCurrentOperation} = useBlokContext()
@@ -34,15 +33,15 @@ const BlokOperations = () => {
                 <div className="grid gap-2 md:min-w-[200px]">
                     <span className='dark:text-white'>You pay</span>
                     <div className='py-2 px-3 bg-[#F6F6F6] border border-blok-color rounded-8 flex justify-between items-center text-14 font-cabinet font-bold'>
-                        <div className="bg-white py-2 rounded-8 px-2 flex justify-center items-center gap-2">
-                            <img src={Tether} alt="" className='w-5 h-5' />
-                            <span className=''>USDT</span>
-                            <button>
+                        <button className="bg-white py-2 rounded-8 px-2 flex justify-center items-center gap-2" value={'USD'}>
+                            <BsCurrencyDollar className='w-5 h-5' />
+                            <span className=''>USD</span>
+                            <span>
                                 <img src={ChevronFilledDown} alt="" />
-                            </button>
-                        </div>
+                            </span>
+                        </button>
 
-                        <input type="number" name="amount_paid" id="amount_paid" className='h-10 px-3 text-end text-16 rounded-8 focus:ring-0 focus:outline-transparent focus:border-transparent border-1'/>
+                        <input type="number" name="amount_paid" id="amount_paid" className='h-10 px-3 text-end text-16 rounded-8 focus:ring-0 focus:outline-transparent focus:border-transparent border-1' placeholder='Enter an amount' defaultValue={4200}/>
 
                     </div>
                 </div>
@@ -52,15 +51,15 @@ const BlokOperations = () => {
                 <div className="grid gap-2 md:min-w-[200px]">
                     <span className='dark:text-white'>You get</span>
                     <div className='py-2 px-3 bg-[#F6F6F6] border border-blok-color rounded-8 flex justify-between items-center text-14 font-cabinet font-bold'>
-                        <div className="bg-white py-2 rounded-8 px-2 flex justify-center items-center gap-2">
+                        <button className="bg-white py-2 rounded-8 px-2 flex justify-center items-center gap-2">
                             <img src={Ethereum} alt="" className='w-5 h-5' />
                             <span className=''>ETH</span>
-                            <button>
+                            <span>
                                 <img src={ChevronFilledDown} alt="" />
-                            </button>
-                        </div>
+                            </span>
+                        </button>
 
-                        <input type="number" name="amount_paid" id="amount_paid" className='h-10 px-3 text-end text-16 rounded-8 focus:ring-0 focus:outline-transparent focus:border-transparent border-1'/>
+                        <input type="number" name="asset_recieved" id="asset_recieved" className='h-10 px-3 text-end text-16 rounded-8 focus:ring-0 focus:outline-transparent focus:border-transparent border-1' defaultValue={3.123} />
                     </div>
                     <span className='font-cabinet font-bold text-blok-grey md:absolute md:translate-x-[200%] xl:relative xl:translate-x-0'>{`1${' ETH '} = ${' $1300.08'}`}</span>
                 </div>

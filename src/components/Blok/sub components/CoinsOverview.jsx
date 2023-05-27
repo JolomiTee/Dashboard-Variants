@@ -30,7 +30,7 @@ const CoinsOverview = () => {
                                     }
                                     {item.stock}%
                                 </p> */}
-                                <RateValue crypto={item.cryptocurrency}/>
+                                <RateValue crypto={item.name}/>
                             </div>
                         </div>
                     </div>
