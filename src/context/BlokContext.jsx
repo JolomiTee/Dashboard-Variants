@@ -7,6 +7,7 @@ export const BlokContextProvider = ({children}) => {
     localStorage.setItem('appTheme', appTheme)
     const [currentMenu, setCurrentMenu] = useState('Dashboard')
     const [currentRange, setCurrentRange] = useState('3HRS')
+    const [currentOperation, setCurrentOperation] = useState('buy')
 
     return (
         <BlokContext.Provider
@@ -14,6 +15,7 @@ export const BlokContextProvider = ({children}) => {
                 currentMenu, setCurrentMenu,
                 currentRange, setCurrentRange,
                 appTheme, setAppTheme,
+                currentOperation, setCurrentOperation
             }}
         >
             {children}
