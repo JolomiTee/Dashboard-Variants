@@ -41,7 +41,7 @@ const BlokOperations = () => {
                             </span>
                         </button>
 
-                        <input type="number" name="amount_paid" id="amount_paid" className='h-10 px-3 text-end text-16 rounded-8 focus:ring-0 focus:outline-transparent focus:border-transparent border-1' placeholder='Enter an amount' value={4200}/>
+                        <input type="number" name="amount_paid" id="amount_paid" className='h-10 px-3 text-end text-16 rounded-8 focus:ring-0 focus:outline-transparent focus:border-transparent border-1' placeholder='Enter an amount' defaultValue={4200}/>
 
                     </div>
                 </div>
@@ -59,7 +59,7 @@ const BlokOperations = () => {
                             </span>
                         </button>
 
-                        <input type="number" name="asset_recieved" id="asset_recieved" className='h-10 px-3 text-end text-16 rounded-8 focus:ring-0 focus:outline-transparent focus:border-transparent border-1' value={3.123} />
+                        <input type="number" name="asset_recieved" id="asset_recieved" className='h-10 px-3 text-end text-16 rounded-8 focus:ring-0 focus:outline-transparent focus:border-transparent border-1' defaultValue={3.123} />
                     </div>
                     <span className='font-cabinet font-bold text-blok-grey md:absolute md:translate-x-[200%] xl:relative xl:translate-x-0'>{`1${' ETH '} = ${' $1300.08'}`}</span>
                 </div>

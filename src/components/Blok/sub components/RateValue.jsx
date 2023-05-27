@@ -1,93 +1,54 @@
-import { useState, useEffect } from 'react'
-import axios from 'axios'
-import StockDecrease from '../../../assets/Blok/images/arrow-down.svg'
-import StockIncrease from '../../../assets/Blok/images/arrow-up.svg'
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
+import StockDecrease from '../../../assets/Blok/images/arrow-down.svg';
+import StockIncrease from '../../../assets/Blok/images/arrow-up.svg';
+
 const RateValue = ({ crypto }) => {
-    const [responseData, setResponseData] = useState([]);
-    const [overviewPercentage, setOverviewPercentage] = useState(0.00)
-    const [aggregate, setAggregate] = useState(0.0)
+  const [responseData, setResponseData] = useState([]);
 
-    const apiFetch = () => {
-        const apiUrl = `https://rest.coinapi.io/v1/ohlcv/BITSTAMP_SPOT_${crypto}_USD/latest`
-        const options = {
-            method: 'GET',
-            url: apiUrl,
-            params: { period_id: '10SEC', },
-            headers: {
-                Accept: 'application/json',
-                'X-CoinAPI-Key': ''
-            }
-        };
+  const apiFetch = async () => {
+    let headersList = {
+      "Accept": "*/*",
+    };
 
-        axios.request(options).then(function (response) {
-            setResponseData(response.data)
-        }).catch(function (error) {
-            // console.error(error);
-        });
-    }
+    let reqOptions = {
+      url: `https://api.coingecko.com/api/v3/coins/${crypto}?localization=false&tickers=false&community_data=false&developer_data=false&sparkline=false`,
+      method: "GET",
+      headers: headersList,
+    };
 
+    let response = await axios.request(reqOptions);
+    setResponseData(response.data);
+  };
 
-    // useEffect(() => {
-    //     const timer = setInterval(() => {
-    //         apiFetch()
-    //     }, 120000);
+  useEffect(() => {
+    apiFetch();
+  }, []);
 
-    //     return () => {
-    //         clearInterval(timer)
-    //     }
-    // }, [])
+  useEffect(() => {
+    const timer = setInterval(() => {
+      apiFetch();
+      console.log('updated rates')
+    }, 120000);
 
+    return () => {
+      clearInterval(timer);
+    };
+  }, []);
 
+  const { market_data } = responseData;
+  const priceChangePercentage = market_data?.price_change_percentage_24h;
 
-    // useEffect(() => {
+  return (
+    <div>
+      <p
+        className={`${priceChangePercentage > 0 ? 'text-blok-dark-green' : 'text-blok-red'} leading-[10px] flex items-center`}
+      >
+        <img src={priceChangePercentage > 0 ? StockIncrease : StockDecrease} alt="" />
+        {priceChangePercentage.toFixed(2)}%
+      </p>
+    </div>
+  );
+};
 
-    //     const calculateOverviewPercentage = (open, close) => {
-    //         const initial = close - open;
-    //         const percentageChange = (initial / open) * 100;
-    //         return percentageChange.toFixed(3);
-    //     }
-
-    //     const calculatePercentageChanges = (responseData) => {
-    //         const percentageChanges = [];
-
-    //         for (let i = 0; i < responseData.length; i++) {
-    //             const item = responseData[i]
-    //             const percentageChange = calculateOverviewPercentage(item.price_open, item.price_close)
-    //             percentageChanges.push(parseFloat(percentageChange))
-    //         }
-    //         return percentageChanges
-    //     }
-    //     const percentageChanges = calculatePercentageChanges(responseData)
-
-    //     setOverviewPercentage(percentageChanges.length - 1)
-
-
-    //     const calculateAggregate = (percentageChanges) => {
-    //         const sum = percentageChanges.reduce((accumulator, currentValue) => accumulator + currentValue, 0)
-    //         const average = sum / percentageChanges.length;
-
-    //         return average.toFixed(5);
-    //     }
-
-    //     const aggregate = calculateAggregate(percentageChanges)
-    //     setAggregate(aggregate)
-
-    // }, [responseData])
-
-    return (
-        <div>
-            <p
-                className={`leading-[10px] flex items-center
-                                    ${aggregate > 0.0001 ? 'text-blok-rate-green' : 'text-blok-rate-red'}`}
-            >
-                {aggregate > 0.0001 ?
-                    (<img src={StockIncrease} />) :
-                    (<img src={StockDecrease} />)
-                }
-                {aggregate}%
-            </p>
-        </div>
-    )
-}
-
-export default RateValue
+export default RateValue;
