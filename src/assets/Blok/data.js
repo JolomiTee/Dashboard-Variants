@@ -100,8 +100,8 @@ export const BlokOperation = [
 				value: "sell",
 			},
 			{
-				operation: "Exchange",
-				value: "exchange",
+				operation: "Convert",
+				value: "convert",
 			},
 		],
 	},
@@ -111,6 +111,7 @@ export const BlokCoinOverview = [
 	{
 		amount: 0.2832,
 		cryptocurrency: "BTC",
+        name: 'bitcoin',
 		marketCurrency: "$",
 		marketValue: 14900,
 		graph: BtcGraph,
@@ -122,6 +123,7 @@ export const BlokCoinOverview = [
 	{
 		amount: 0.3324,
 		cryptocurrency: "ETH",
+        name: 'ethereum',
 		marketCurrency: "$",
 		marketValue: 8900,
 		graph: EthGraph,
@@ -133,6 +135,7 @@ export const BlokCoinOverview = [
 	{
 		amount: 0.1825,
 		cryptocurrency: "USDT",
+        name: 'tether',
 		marketCurrency: "$",
 		marketValue: 4700,
 		graph: TetherGraph,

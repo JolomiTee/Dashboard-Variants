@@ -26,7 +26,7 @@ const BlokAnalytics = () => {
                 </div>
             </div>
             <div className="mt-10">
-                <SplineChart />
+                {/* <SplineChart /> */}
             </div>
         </div>
     )
