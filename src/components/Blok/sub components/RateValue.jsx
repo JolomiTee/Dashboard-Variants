@@ -45,7 +45,7 @@ const RateValue = ({ crypto }) => {
         className={`${priceChangePercentage > 0 ? 'text-blok-dark-green' : 'text-blok-red'} leading-[10px] flex items-center`}
       >
         <img src={priceChangePercentage > 0 ? StockIncrease : StockDecrease} alt="" />
-        {priceChangePercentage.toFixed(2)}%
+        {priceChangePercentage?.toFixed(2)}%
       </p>
     </div>
   );
