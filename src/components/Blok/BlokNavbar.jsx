@@ -35,20 +35,20 @@ const BlokNavbar = ({ activeMenu, setActiveMenu }) => {
                     <img src={SearchIcon} alt="" className='absolute z-[5] ms-2 w-[16px] h-[16px]' />
                     <input type="search" name="search" id="search" placeholder='Search' className='border border-blok-color py-[5px] ps-[35px] pe-[10px] rounded-8 relative focus:ring-0 focus:outline-transparent h-11 placeholder:text-blok-grey dark:bg-gray-600' />
                 </div>
-                <div className="border border-blok-color p-1 rounded-8 px-2 flex justify-center items-center gap-2 h-11 dark:text-white">
+                <button className="border border-blok-color p-1 rounded-8 px-2 flex justify-center items-center gap-2 h-11 dark:text-white">
                     <img src={Tether} alt="" className='w-5 h-5' />
                     <span className='flex flex-shrink-0'>USDT</span>
-                    <button>
+                    <span>
                         <img src={ChevronFilledDown} alt="coin" />
-                    </button>
-                </div>
-                <div className="border border-blok-color p-1 rounded-8 px-2 flex justify-center items-center gap-2 h-11 dark:text-white">
+                    </span>
+                </button>
+                <button className="border border-blok-color p-1 rounded-8 px-2 flex justify-center items-center gap-2 h-11 dark:text-white">
                     <img src={ProfilePicture} alt="" className='w-7 h-7' />
                     <span className='flex flex-shrink-0'>Jolomi Taiwo</span>
-                    <button>
+                    <span>
                         <img src={ChevronFilledDown} alt="" />
-                    </button>
-                </div>
+                    </span>
+                </button>
             </div>
 
         </div>

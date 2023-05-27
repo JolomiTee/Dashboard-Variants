@@ -15,7 +15,7 @@ const RateValue = ({ crypto }) => {
             params: { period_id: '10SEC', },
             headers: {
                 Accept: 'application/json',
-                'X-CoinAPI-Key': '67CE7602-E47C-4E5B-AADF-AED1FD516B77'
+                'X-CoinAPI-Key': ''
             }
         };
 
@@ -27,52 +27,52 @@ const RateValue = ({ crypto }) => {
     }
 
 
-    useEffect(() => {
-        const timer = setInterval(() => {
-            apiFetch()
-        }, 120000);
+    // useEffect(() => {
+    //     const timer = setInterval(() => {
+    //         apiFetch()
+    //     }, 120000);
 
-        return () => {
-            clearInterval(timer)
-        }
-    }, [])
-
-
-
-    useEffect(() => {
-
-        const calculateOverviewPercentage = (open, close) => {
-            const initial = close - open;
-            const percentageChange = (initial / open) * 100;
-            return percentageChange.toFixed(3);
-        }
-
-        const calculatePercentageChanges = (responseData) => {
-            const percentageChanges = [];
-
-            for (let i = 0; i < responseData.length; i++) {
-                const item = responseData[i]
-                const percentageChange = calculateOverviewPercentage(item.price_open, item.price_close)
-                percentageChanges.push(parseFloat(percentageChange))
-            }
-            return percentageChanges
-        }
-        const percentageChanges = calculatePercentageChanges(responseData)
-
-        setOverviewPercentage(percentageChanges.length - 1)
+    //     return () => {
+    //         clearInterval(timer)
+    //     }
+    // }, [])
 
 
-        const calculateAggregate = (percentageChanges) => {
-            const sum = percentageChanges.reduce((accumulator, currentValue) => accumulator + currentValue, 0)
-            const average = sum / percentageChanges.length;
 
-            return average.toFixed(5);
-        }
+    // useEffect(() => {
 
-        const aggregate = calculateAggregate(percentageChanges)
-        setAggregate(aggregate)
+    //     const calculateOverviewPercentage = (open, close) => {
+    //         const initial = close - open;
+    //         const percentageChange = (initial / open) * 100;
+    //         return percentageChange.toFixed(3);
+    //     }
 
-    }, [responseData])
+    //     const calculatePercentageChanges = (responseData) => {
+    //         const percentageChanges = [];
+
+    //         for (let i = 0; i < responseData.length; i++) {
+    //             const item = responseData[i]
+    //             const percentageChange = calculateOverviewPercentage(item.price_open, item.price_close)
+    //             percentageChanges.push(parseFloat(percentageChange))
+    //         }
+    //         return percentageChanges
+    //     }
+    //     const percentageChanges = calculatePercentageChanges(responseData)
+
+    //     setOverviewPercentage(percentageChanges.length - 1)
+
+
+    //     const calculateAggregate = (percentageChanges) => {
+    //         const sum = percentageChanges.reduce((accumulator, currentValue) => accumulator + currentValue, 0)
+    //         const average = sum / percentageChanges.length;
+
+    //         return average.toFixed(5);
+    //     }
+
+    //     const aggregate = calculateAggregate(percentageChanges)
+    //     setAggregate(aggregate)
+
+    // }, [responseData])
 
     return (
         <div>
