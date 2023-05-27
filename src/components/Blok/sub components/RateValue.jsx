@@ -21,20 +21,19 @@ const RateValue = ({ crypto }) => {
     setResponseData(response.data);
   };
 
-  useEffect(() => {
-    apiFetch();
-  }, []);
+//   useEffect(() => {
+//     apiFetch();
+//   }, []);
 
-  useEffect(() => {
-    const timer = setInterval(() => {
-      apiFetch();
-      console.log('updated rates')
-    }, 120000);
+//   useEffect(() => {
+//     const timer = setInterval(() => {
+//       apiFetch();
+//     }, 120000);
 
-    return () => {
-      clearInterval(timer);
-    };
-  }, []);
+//     return () => {
+//       clearInterval(timer);
+//     };
+//   }, []);
 
   const { market_data } = responseData;
   const priceChangePercentage = market_data?.price_change_percentage_24h;
@@ -45,7 +44,7 @@ const RateValue = ({ crypto }) => {
         className={`${priceChangePercentage > 0 ? 'text-blok-dark-green' : 'text-blok-red'} leading-[10px] flex items-center`}
       >
         <img src={priceChangePercentage > 0 ? StockIncrease : StockDecrease} alt="" />
-        {priceChangePercentage?.toFixed(2)}%
+        {priceChangePercentage?.toFixed(2) || 1.23}%
       </p>
     </div>
   );
