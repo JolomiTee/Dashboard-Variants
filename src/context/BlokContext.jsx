@@ -9,13 +9,14 @@ export const BlokContextProvider = ({children}) => {
     const [currentRange, setCurrentRange] = useState('3HRS')
     const [currentOperation, setCurrentOperation] = useState('buy')
 
+
     return (
         <BlokContext.Provider
             value={{
                 currentMenu, setCurrentMenu,
                 currentRange, setCurrentRange,
                 appTheme, setAppTheme,
-                currentOperation, setCurrentOperation
+                currentOperation, setCurrentOperation,
             }}
         >
             {children}
