@@ -5,12 +5,13 @@ import Ethereum from '../../../../assets/Blok/images/Ethereum.svg'
 import { BsCurrencyDollar } from 'react-icons/bs'
 import { BlokCryptocurrencyData } from '../../../../assets/Blok/data'
 import ConversionRate from './ConversionRate'
+import { useBlokContext } from '../../../../context/BlokContext'
 // import axios from 'axios'
 
 
 const BlokBuy = () => {
     const [showRecieveableCoins, setShowRecieveableCoins] = useState(false)
-    const [selectedRecievableCoin, setSelectedRecievableCoin] = useState([])
+    const {selectedRecievableCoin, setSelectedRecievableCoin} = useBlokContext()
 
     const selectRecieveableCoins = (e) => {
         e.preventDefault()
@@ -72,8 +73,8 @@ const BlokBuy = () => {
                             onClick={selectRecieveableCoins}
                             title={selectedRecievableCoin.name || 'Ethereum'}
                         >
-                            <div className='w-5 h-5'><img src={selectedRecievableCoin.img || Ethereum} className='flex-shrink-0' alt={selectedRecievableCoin.name || 'Ethereum'} /></div>
-                            <span className=''>{selectedRecievableCoin.symbol || 'ETH'}</span>
+                            <div className='w-5 h-5'><img src={selectedRecievableCoin.img || "https://img.icons8.com/ios/50/cryptocurrency.png"} className='flex-shrink-0' alt={selectedRecievableCoin.name || 'Ethereum'} /></div>
+                            <span className=''>{selectedRecievableCoin.symbol || 'Select'}</span>
                             <div className='w-5 h-5' title='Select a cryptocurrency'>
                                 <img src={ChevronFilledDown} className='flex-shrink-0 w-5 h-5' alt="" />
                             </div>
@@ -102,7 +103,7 @@ const BlokBuy = () => {
                         </div>
 
                     </div>
-                        <ConversionRate cryptocurrency={selectedRecievableCoin.symbol} />
+                        <ConversionRate />
                 </div>
 
                 <div className="flex-grow lg:w-full">

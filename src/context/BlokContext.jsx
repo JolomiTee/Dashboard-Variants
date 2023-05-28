@@ -8,6 +8,7 @@ export const BlokContextProvider = ({children}) => {
     const [currentMenu, setCurrentMenu] = useState('Dashboard')
     const [currentRange, setCurrentRange] = useState('3HRS')
     const [currentOperation, setCurrentOperation] = useState('buy')
+    const [selectedRecievableCoin, setSelectedRecievableCoin] = useState([])
 
 
     return (
@@ -17,6 +18,7 @@ export const BlokContextProvider = ({children}) => {
                 currentRange, setCurrentRange,
                 appTheme, setAppTheme,
                 currentOperation, setCurrentOperation,
+                selectedRecievableCoin, setSelectedRecievableCoin,
             }}
         >
             {children}
