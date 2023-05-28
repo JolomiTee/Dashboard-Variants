@@ -8,7 +8,7 @@ import BlokExchange from './operations/BlokExchange'
 const BlokOperations = () => {
     const { currentOperation, setCurrentOperation } = useBlokContext()
     return (
-        <div className='border border-blok-color rounded-16 p-4 flex flex-col gap-5 sm:flex-row mdl:flex-col lg:flex-row xl:flex-col sm:p-6 min-h-[448px]'>
+        <div className='border border-blok-color rounded-16 p-4 flex flex-col gap-5 sm:flex-row mdl:flex-col lg:flex-row xl:flex-col sm:p-6'>
             <div className="flex flex-col gap-3 mdl:flex-row mdl:items-center mdl:gap-5 lg:flex-col lg:items-start lg:gap-3 xl:flex-row xl:justify-between xl:items-center h-fit">
                 <p className='text-[20px] text-blok-dark dark:text-white font-cabinet font-bold'>Operations</p>
 
