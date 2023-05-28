@@ -1,11 +1,10 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import ChevronFilledDown from '../../../../assets/Blok/images/ChevronFilledDown.svg'
 import IndrasArrow from '../../../../assets/Blok/images/IndrasArrow.svg'
 import { BsCurrencyDollar } from 'react-icons/bs'
 import { BlokCryptocurrencyData } from '../../../../assets/Blok/data'
 import ConversionRate from './ConversionRate'
 import { useBlokContext } from '../../../../context/BlokContext'
-// import axios from 'axios'
 
 
 const BlokBuy = () => {
@@ -72,6 +71,7 @@ const BlokBuy = () => {
                 <span className='relative'>
                     <img src={IndrasArrow} alt="" className='mx-auto mdl:rotate-90 mdl:-translate-y-4 lg:rotate-0 lg:-translate-y-0 xl:rotate-0' />
                 </span>
+
                 <div className="flex flex-col gap-2 md:min-w-[200px] lg:w-full">
                     <span className='dark:text-white'>You get</span>
 
