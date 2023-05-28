@@ -109,7 +109,7 @@ export const BlokOperation = [
 
 export const BlokCoinOverview = [
 	{
-		amount: 0.2832,
+		amount: 0.1809,
 		cryptocurrency: "BTC",
 		name: "bitcoin",
 		marketCurrency: "$",
@@ -121,7 +121,7 @@ export const BlokCoinOverview = [
 		determine: false,
 	},
 	{
-		amount: 0.3324,
+		amount: 2.6603,
 		cryptocurrency: "ETH",
 		name: "ethereum",
 		marketCurrency: "$",
