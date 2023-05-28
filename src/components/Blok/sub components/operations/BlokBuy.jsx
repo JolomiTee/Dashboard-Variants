@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import ChevronFilledDown from '../../../../assets/Blok/images/ChevronFilledDown.svg'
 import IndrasArrow from '../../../../assets/Blok/images/IndrasArrow.svg'
-import Ethereum from '../../../../assets/Blok/images/Ethereum.svg'
 import { BsCurrencyDollar } from 'react-icons/bs'
 import { BlokCryptocurrencyData } from '../../../../assets/Blok/data'
 import ConversionRate from './ConversionRate'
@@ -11,7 +10,12 @@ import { useBlokContext } from '../../../../context/BlokContext'
 
 const BlokBuy = () => {
     const [showRecieveableCoins, setShowRecieveableCoins] = useState(false)
-    const {selectedRecievableCoin, setSelectedRecievableCoin, selectedRecievableCoinRate} = useBlokContext()
+
+    const {
+        selectedRecievableCoin, setSelectedRecievableCoin,
+        selectedRecievableCoinRate
+    } = useBlokContext()
+
     const [payableAmount, setPayableAmount] = useState(0)
 
     const selectRecieveableCoins = (e) => {
@@ -68,15 +72,15 @@ const BlokBuy = () => {
                 <span className='relative'>
                     <img src={IndrasArrow} alt="" className='mx-auto mdl:rotate-90 mdl:-translate-y-4 lg:rotate-0 lg:-translate-y-0 xl:rotate-0' />
                 </span>
-
                 <div className="flex flex-col gap-2 md:min-w-[200px] lg:w-full">
                     <span className='dark:text-white'>You get</span>
+
                     <div className='p-1 lg:p-2 bg-[#F6F6F6] border border-blok-color rounded-8 flex gap-2 justify-between items-center text-14 font-cabinet font-bold relative'>
                         <button
                             className="bg-white py-2 rounded-8 px-2 flex justify-center items-center gap-2 w-fit"
-                            value={selectedRecievableCoin.value || 'ETH'}
+                            value={selectedRecievableCoin.value}
                             onClick={selectRecieveableCoins}
-                            title={selectedRecievableCoin.name || 'Ethereum'}
+                            title={selectedRecievableCoin.name || 'Select a cryptocurrency'}
                         >
                             <div className='w-5 h-5'><img src={selectedRecievableCoin.img || "https://img.icons8.com/ios/50/cryptocurrency.png"} className='flex-shrink-0' alt={selectedRecievableCoin.name || 'Ethereum'} /></div>
                             <span className=''>{selectedRecievableCoin.symbol || 'Select'}</span>
@@ -109,11 +113,12 @@ const BlokBuy = () => {
                                 name="amount_paid"
                                 id="amount_paid"
                                 className='h-10 px-3 text-end text-16 rounded-8 focus:ring-0 focus:outline-transparent focus:border-transparent border-1 w-[100%] placeholder:text-14'
-                                value={payableAmount / selectedRecievableCoinRate} />
+                                value={(payableAmount / selectedRecievableCoinRate).toLocaleString()} readOnly />
                         </div>
 
                     </div>
-                        <ConversionRate />
+
+                    <ConversionRate />
                 </div>
 
                 <div className="flex-grow lg:w-full">
