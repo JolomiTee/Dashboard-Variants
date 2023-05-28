@@ -21,19 +21,19 @@ const RateValue = ({ crypto }) => {
     setResponseData(response.data);
   };
 
-//   useEffect(() => {
-//     apiFetch();
-//   }, []);
+  useEffect(() => {
+    apiFetch();
+  }, []);
 
-//   useEffect(() => {
-//     const timer = setInterval(() => {
-//       apiFetch();
-//     }, 120000);
+  useEffect(() => {
+    const timer = setInterval(() => {
+      apiFetch();
+    }, 120000);
 
-//     return () => {
-//       clearInterval(timer);
-//     };
-//   }, []);
+    return () => {
+      clearInterval(timer);
+    };
+  }, []);
 
   const { market_data } = responseData;
   const priceChangePercentage = market_data?.price_change_percentage_24h;
