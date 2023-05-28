@@ -11,7 +11,8 @@ import { useBlokContext } from '../../../../context/BlokContext'
 
 const BlokBuy = () => {
     const [showRecieveableCoins, setShowRecieveableCoins] = useState(false)
-    const {selectedRecievableCoin, setSelectedRecievableCoin} = useBlokContext()
+    const {selectedRecievableCoin, setSelectedRecievableCoin, selectedRecievableCoinRate} = useBlokContext()
+    const [payableAmount, setPayableAmount] = useState(0)
 
     const selectRecieveableCoins = (e) => {
         e.preventDefault()
@@ -36,10 +37,14 @@ const BlokBuy = () => {
         setSelectedRecievableCoin(coinData);
     };
 
+    const handlePayableAmountChange = (e) => {
+        setPayableAmount(e.target.value.toLocaleString())
+    }
+
 
     return (
         <>
-            <form className="flex flex-col gap-3 sm:w-full sm:mt-[10px] mdl:flex-row mdl:items-end mdl:mb-5 xl:mb-0 lg:flex-col lg:items-center xl:max-w-[430px] xl:grid">
+            <form onSubmit={(e) => e.preventDefault()} className="flex flex-col gap-3 sm:w-full sm:mt-[10px] mdl:flex-row mdl:items-end mdl:mb-5 xl:mb-0 lg:flex-col lg:items-center xl:max-w-[430px] xl:grid">
 
                 <div className="flex flex-col gap-2 md:min-w-[200px] lg:w-full">
                     <span className='dark:text-white'>You pay</span>
@@ -54,7 +59,7 @@ const BlokBuy = () => {
                         </button>
                         <div className="">
 
-                            <input type="number" name="amount_paid" id="amount_paid" className='h-10 px-3 text-end text-16 rounded-8 focus:ring-0 focus:outline-transparent focus:border-transparent border-1 w-[100%] placeholder:text-14 lg:placeholder:text-16' placeholder='Enter an amount' />
+                            <input type="number" name="amount_paid" id="amount_paid" className='h-10 px-3 text-end text-16 rounded-8 focus:ring-0 focus:outline-transparent focus:border-transparent border-1 w-[100%] placeholder:text-14 lg:placeholder:text-16' placeholder='Enter an amount' onChange={handlePayableAmountChange} />
                         </div>
 
                     </div>
@@ -99,7 +104,12 @@ const BlokBuy = () => {
                             </div>
                         }
                         <div className="">
-                            <input type="number" name="amount_paid" id="amount_paid" className='h-10 px-3 text-end text-16 rounded-8 focus:ring-0 focus:outline-transparent focus:border-transparent border-1 w-[100%] placeholder:text-14' defaultValue={0} />
+                            <input
+                                type="number"
+                                name="amount_paid"
+                                id="amount_paid"
+                                className='h-10 px-3 text-end text-16 rounded-8 focus:ring-0 focus:outline-transparent focus:border-transparent border-1 w-[100%] placeholder:text-14'
+                                value={payableAmount / selectedRecievableCoinRate} />
                         </div>
 
                     </div>
@@ -107,7 +117,12 @@ const BlokBuy = () => {
                 </div>
 
                 <div className="flex-grow lg:w-full">
-                    <button className='w-full flex justify-center items-center min-w-[200px] text-white bg-blok-dark-green h-[50px] rounded-8 text-14 font-bold font-cabinet'>Buy Ethereum</button>
+                    <button
+                        className='w-full flex justify-center items-center min-w-[200px] text-white bg-blok-dark-green h-[50px] rounded-8 text-14 font-bold font-cabinet'
+                        onClick={(e) => e.preventDefault()}
+                    >
+                        Buy {selectedRecievableCoin.name || 'Coin'}
+                    </button>
                 </div>
             </form>
         </>

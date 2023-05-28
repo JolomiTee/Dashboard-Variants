@@ -3,7 +3,7 @@ import axios from 'axios';
 import { useBlokContext } from '../../../../context/BlokContext';
 
 const ConversionRate = () => {
-    const { selectedRecievableCoin } = useBlokContext();
+    const { selectedRecievableCoin, setSelectedRecievableCoinRate } = useBlokContext();
     const [recievedRate, setRecievedRate] = useState();
 
     const { value, symbol } = selectedRecievableCoin;
@@ -30,14 +30,15 @@ const ConversionRate = () => {
         fetchRate();
     }, [value]);
 
-    let usd = 'N/A';
+    let usd = 0;
     if (recievedRate && recievedRate[value]) {
         usd = recievedRate[value].usd;
     }
+    setSelectedRecievableCoinRate(usd)
 
     return (
         <span className='font-cabinet font-bold text-blok-grey mdl:absolute mdl:translate-y-[90px] lg:relative lg:translate-y-[0] xl:relative xl:translate-x-0'>
-            {`1 ${symbol || 'Coin'} = $${usd.toLocaleString()}`}
+            {`1 ${symbol || 'Coin'} = $${usd?.toLocaleString()}`}
         </span>
     );
 };
