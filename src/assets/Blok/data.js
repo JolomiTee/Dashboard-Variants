@@ -982,7 +982,7 @@ export const BlokCryptocurrencyData = [
 
 export const BlokDefaultBitCoinData = [
 	{
-		time_period_start: "2023-05-28T23:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T23:30:00.0000000Z"),
 		time_period_end: "2023-05-29T00:00:00.0000000Z",
 		price_open: 28095,
 		price_high: 28102,
@@ -990,7 +990,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 28064,
 	},
 	{
-		time_period_start: "2023-05-28T23:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T23:00:00.0000000Z"),
 		time_period_end: "2023-05-28T23:30:00.0000000Z",
 		price_open: 28102,
 		price_high: 28248,
@@ -998,7 +998,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 28093,
 	},
 	{
-		time_period_start: "2023-05-28T22:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T22:30:00.0000000Z"),
 		time_period_end: "2023-05-28T23:00:00.0000000Z",
 		price_open: 28080,
 		price_high: 28123,
@@ -1006,7 +1006,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 28096,
 	},
 	{
-		time_period_start: "2023-05-28T22:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T22:00:00.0000000Z"),
 		time_period_end: "2023-05-28T22:30:00.0000000Z",
 		price_open: 27848,
 		price_high: 28172,
@@ -1014,7 +1014,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 28080,
 	},
 	{
-		time_period_start: "2023-05-28T21:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T21:30:00.0000000Z"),
 		time_period_end: "2023-05-28T22:00:00.0000000Z",
 		price_open: 27636,
 		price_high: 27961,
@@ -1022,7 +1022,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 27848,
 	},
 	{
-		time_period_start: "2023-05-28T21:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T21:00:00.0000000Z"),
 		time_period_end: "2023-05-28T21:30:00.0000000Z",
 		price_open: 27564,
 		price_high: 27658,
@@ -1030,7 +1030,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 27644,
 	},
 	{
-		time_period_start: "2023-05-28T20:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T20:30:00.0000000Z"),
 		time_period_end: "2023-05-28T21:00:00.0000000Z",
 		price_open: 27578,
 		price_high: 27590,
@@ -1038,7 +1038,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 27565,
 	},
 	{
-		time_period_start: "2023-05-28T20:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T20:00:00.0000000Z"),
 		time_period_end: "2023-05-28T20:30:00.0000000Z",
 		price_open: 27531,
 		price_high: 27597,
@@ -1046,7 +1046,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 27578,
 	},
 	{
-		time_period_start: "2023-05-28T19:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T19:30:00.0000000Z"),
 		time_period_end: "2023-05-28T20:00:00.0000000Z",
 		price_open: 27613,
 		price_high: 27631,
@@ -1054,7 +1054,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 27531,
 	},
 	{
-		time_period_start: "2023-05-28T19:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T19:00:00.0000000Z"),
 		time_period_end: "2023-05-28T19:30:00.0000000Z",
 		price_open: 27610,
 		price_high: 27636,
@@ -1062,7 +1062,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 27614,
 	},
 	{
-		time_period_start: "2023-05-28T18:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T18:30:00.0000000Z"),
 		time_period_end: "2023-05-28T19:00:00.0000000Z",
 		price_open: 27615,
 		price_high: 27660,
@@ -1070,7 +1070,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 27595,
 	},
 	{
-		time_period_start: "2023-05-28T18:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T18:00:00.0000000Z"),
 		time_period_end: "2023-05-28T18:30:00.0000000Z",
 		price_open: 27358,
 		price_high: 27726,
@@ -1078,7 +1078,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 27593,
 	},
 	{
-		time_period_start: "2023-05-28T17:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T17:30:00.0000000Z"),
 		time_period_end: "2023-05-28T18:00:00.0000000Z",
 		price_open: 27276,
 		price_high: 27408,
@@ -1086,7 +1086,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 27356,
 	},
 	{
-		time_period_start: "2023-05-28T17:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T17:00:00.0000000Z"),
 		time_period_end: "2023-05-28T17:30:00.0000000Z",
 		price_open: 27263,
 		price_high: 27277,
@@ -1094,7 +1094,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 27275,
 	},
 	{
-		time_period_start: "2023-05-28T16:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T16:30:00.0000000Z"),
 		time_period_end: "2023-05-28T17:00:00.0000000Z",
 		price_open: 27263,
 		price_high: 27292,
@@ -1102,7 +1102,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 27263,
 	},
 	{
-		time_period_start: "2023-05-28T16:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T16:00:00.0000000Z"),
 		time_period_end: "2023-05-28T16:30:00.0000000Z",
 		price_open: 27280,
 		price_high: 27340,
@@ -1110,7 +1110,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 27261,
 	},
 	{
-		time_period_start: "2023-05-28T15:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T15:30:00.0000000Z"),
 		time_period_end: "2023-05-28T16:00:00.0000000Z",
 		price_open: 27235,
 		price_high: 27280,
@@ -1118,7 +1118,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 27280,
 	},
 	{
-		time_period_start: "2023-05-28T15:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T15:00:00.0000000Z"),
 		time_period_end: "2023-05-28T15:30:00.0000000Z",
 		price_open: 27192,
 		price_high: 27253,
@@ -1126,7 +1126,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 27232,
 	},
 	{
-		time_period_start: "2023-05-28T14:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T14:30:00.0000000Z"),
 		time_period_end: "2023-05-28T15:00:00.0000000Z",
 		price_open: 27197,
 		price_high: 27230,
@@ -1134,7 +1134,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 27192,
 	},
 	{
-		time_period_start: "2023-05-28T14:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T14:00:00.0000000Z"),
 		time_period_end: "2023-05-28T14:30:00.0000000Z",
 		price_open: 27184,
 		price_high: 27240,
@@ -1142,7 +1142,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 27198,
 	},
 	{
-		time_period_start: "2023-05-28T13:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T13:30:00.0000000Z"),
 		time_period_end: "2023-05-28T14:00:00.0000000Z",
 		price_open: 27199,
 		price_high: 27228,
@@ -1150,7 +1150,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 27185,
 	},
 	{
-		time_period_start: "2023-05-28T13:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T13:00:00.0000000Z"),
 		time_period_end: "2023-05-28T13:30:00.0000000Z",
 		price_open: 27150,
 		price_high: 27213,
@@ -1158,7 +1158,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 27199,
 	},
 	{
-		time_period_start: "2023-05-28T12:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T12:30:00.0000000Z"),
 		time_period_end: "2023-05-28T13:00:00.0000000Z",
 		price_open: 27178,
 		price_high: 27179,
@@ -1166,7 +1166,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 27131,
 	},
 	{
-		time_period_start: "2023-05-28T12:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T12:00:00.0000000Z"),
 		time_period_end: "2023-05-28T12:30:00.0000000Z",
 		price_open: 27170,
 		price_high: 27194,
@@ -1174,7 +1174,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 27178,
 	},
 	{
-		time_period_start: "2023-05-28T11:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T11:30:00.0000000Z"),
 		time_period_end: "2023-05-28T12:00:00.0000000Z",
 		price_open: 27206,
 		price_high: 27223,
@@ -1182,7 +1182,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 27166,
 	},
 	{
-		time_period_start: "2023-05-28T11:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T11:00:00.0000000Z"),
 		time_period_end: "2023-05-28T11:30:00.0000000Z",
 		price_open: 27225,
 		price_high: 27320,
@@ -1190,7 +1190,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 27205,
 	},
 	{
-		time_period_start: "2023-05-28T10:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T10:30:00.0000000Z"),
 		time_period_end: "2023-05-28T11:00:00.0000000Z",
 		price_open: 27179,
 		price_high: 27224,
@@ -1198,7 +1198,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 27223,
 	},
 	{
-		time_period_start: "2023-05-28T10:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T10:00:00.0000000Z"),
 		time_period_end: "2023-05-28T10:30:00.0000000Z",
 		price_open: 27161,
 		price_high: 27179,
@@ -1206,7 +1206,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 27178,
 	},
 	{
-		time_period_start: "2023-05-28T09:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T09:30:00.0000000Z"),
 		time_period_end: "2023-05-28T10:00:00.0000000Z",
 		price_open: 27186,
 		price_high: 27186,
@@ -1214,7 +1214,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 27157,
 	},
 	{
-		time_period_start: "2023-05-28T09:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T09:00:00.0000000Z"),
 		time_period_end: "2023-05-28T09:30:00.0000000Z",
 		price_open: 27207,
 		price_high: 27210,
@@ -1222,7 +1222,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 27183,
 	},
 	{
-		time_period_start: "2023-05-28T08:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T08:30:00.0000000Z"),
 		time_period_end: "2023-05-28T09:00:00.0000000Z",
 		price_open: 27211,
 		price_high: 27219,
@@ -1230,7 +1230,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 27207,
 	},
 	{
-		time_period_start: "2023-05-28T08:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T08:00:00.0000000Z"),
 		time_period_end: "2023-05-28T08:30:00.0000000Z",
 		price_open: 27236,
 		price_high: 27239,
@@ -1238,7 +1238,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 27211,
 	},
 	{
-		time_period_start: "2023-05-28T07:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T07:30:00.0000000Z"),
 		time_period_end: "2023-05-28T08:00:00.0000000Z",
 		price_open: 27206,
 		price_high: 27233,
@@ -1246,7 +1246,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 27221,
 	},
 	{
-		time_period_start: "2023-05-28T07:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T07:00:00.0000000Z"),
 		time_period_end: "2023-05-28T07:30:00.0000000Z",
 		price_open: 27194,
 		price_high: 27210,
@@ -1254,7 +1254,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 27206,
 	},
 	{
-		time_period_start: "2023-05-28T06:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T06:30:00.0000000Z"),
 		time_period_end: "2023-05-28T07:00:00.0000000Z",
 		price_open: 27194,
 		price_high: 27235,
@@ -1262,7 +1262,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 27194,
 	},
 	{
-		time_period_start: "2023-05-28T06:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T06:00:00.0000000Z"),
 		time_period_end: "2023-05-28T06:30:00.0000000Z",
 		price_open: 27176,
 		price_high: 27212,
@@ -1270,7 +1270,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 27194,
 	},
 	{
-		time_period_start: "2023-05-28T05:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T05:30:00.0000000Z"),
 		time_period_end: "2023-05-28T06:00:00.0000000Z",
 		price_open: 27146,
 		price_high: 27176,
@@ -1278,7 +1278,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 27174,
 	},
 	{
-		time_period_start: "2023-05-28T05:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T05:00:00.0000000Z"),
 		time_period_end: "2023-05-28T05:30:00.0000000Z",
 		price_open: 27182,
 		price_high: 27188,
@@ -1286,7 +1286,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 27149,
 	},
 	{
-		time_period_start: "2023-05-28T04:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T04:30:00.0000000Z"),
 		time_period_end: "2023-05-28T05:00:00.0000000Z",
 		price_open: 27216,
 		price_high: 27221,
@@ -1294,7 +1294,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 27177,
 	},
 	{
-		time_period_start: "2023-05-28T04:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T04:00:00.0000000Z"),
 		time_period_end: "2023-05-28T04:30:00.0000000Z",
 		price_open: 27213,
 		price_high: 27290,
@@ -1302,7 +1302,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 27213,
 	},
 	{
-		time_period_start: "2023-05-28T03:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T03:30:00.0000000Z"),
 		time_period_end: "2023-05-28T04:00:00.0000000Z",
 		price_open: 27130,
 		price_high: 27246,
@@ -1310,7 +1310,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 27193,
 	},
 	{
-		time_period_start: "2023-05-28T03:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T03:00:00.0000000Z"),
 		time_period_end: "2023-05-28T03:30:00.0000000Z",
 		price_open: 27117,
 		price_high: 27167,
@@ -1318,7 +1318,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 27130,
 	},
 	{
-		time_period_start: "2023-05-28T02:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T02:30:00.0000000Z"),
 		time_period_end: "2023-05-28T03:00:00.0000000Z",
 		price_open: 27114,
 		price_high: 27131,
@@ -1326,7 +1326,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 27110,
 	},
 	{
-		time_period_start: "2023-05-28T02:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T02:00:00.0000000Z"),
 		time_period_end: "2023-05-28T02:30:00.0000000Z",
 		price_open: 27108,
 		price_high: 27125,
@@ -1334,7 +1334,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 27111,
 	},
 	{
-		time_period_start: "2023-05-28T01:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T01:30:00.0000000Z"),
 		time_period_end: "2023-05-28T02:00:00.0000000Z",
 		price_open: 27137,
 		price_high: 27143,
@@ -1342,7 +1342,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 27108,
 	},
 	{
-		time_period_start: "2023-05-28T01:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T01:00:00.0000000Z"),
 		time_period_end: "2023-05-28T01:30:00.0000000Z",
 		price_open: 27093,
 		price_high: 27187,
@@ -1350,7 +1350,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 27135,
 	},
 	{
-		time_period_start: "2023-05-28T00:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T00:30:00.0000000Z"),
 		time_period_end: "2023-05-28T01:00:00.0000000Z",
 		price_open: 26827,
 		price_high: 27124,
@@ -1358,7 +1358,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 27085,
 	},
 	{
-		time_period_start: "2023-05-28T00:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T00:00:00.0000000Z"),
 		time_period_end: "2023-05-28T00:30:00.0000000Z",
 		price_open: 26875,
 		price_high: 26883,
@@ -1366,7 +1366,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 26826,
 	},
 	{
-		time_period_start: "2023-05-27T23:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T23:30:00.0000000Z"),
 		time_period_end: "2023-05-28T00:00:00.0000000Z",
 		price_open: 26838,
 		price_high: 26893,
@@ -1374,7 +1374,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 26872,
 	},
 	{
-		time_period_start: "2023-05-27T23:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T23:00:00.0000000Z"),
 		time_period_end: "2023-05-27T23:30:00.0000000Z",
 		price_open: 26816,
 		price_high: 26839,
@@ -1382,7 +1382,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 26839,
 	},
 	{
-		time_period_start: "2023-05-27T22:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T22:30:00.0000000Z"),
 		time_period_end: "2023-05-27T23:00:00.0000000Z",
 		price_open: 26795,
 		price_high: 26839,
@@ -1390,7 +1390,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 26816,
 	},
 	{
-		time_period_start: "2023-05-27T22:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T22:00:00.0000000Z"),
 		time_period_end: "2023-05-27T22:30:00.0000000Z",
 		price_open: 26781,
 		price_high: 26800,
@@ -1398,7 +1398,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 26792,
 	},
 	{
-		time_period_start: "2023-05-27T21:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T21:30:00.0000000Z"),
 		time_period_end: "2023-05-27T22:00:00.0000000Z",
 		price_open: 26752,
 		price_high: 26781,
@@ -1406,7 +1406,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 26781,
 	},
 	{
-		time_period_start: "2023-05-27T21:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T21:00:00.0000000Z"),
 		time_period_end: "2023-05-27T21:30:00.0000000Z",
 		price_open: 26766,
 		price_high: 26784,
@@ -1414,7 +1414,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 26751,
 	},
 	{
-		time_period_start: "2023-05-27T20:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T20:30:00.0000000Z"),
 		time_period_end: "2023-05-27T21:00:00.0000000Z",
 		price_open: 26753,
 		price_high: 26763,
@@ -1422,7 +1422,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 26763,
 	},
 	{
-		time_period_start: "2023-05-27T20:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T20:00:00.0000000Z"),
 		time_period_end: "2023-05-27T20:30:00.0000000Z",
 		price_open: 26743,
 		price_high: 26759,
@@ -1430,7 +1430,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 26752,
 	},
 	{
-		time_period_start: "2023-05-27T19:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T19:30:00.0000000Z"),
 		time_period_end: "2023-05-27T20:00:00.0000000Z",
 		price_open: 26763,
 		price_high: 26771,
@@ -1438,7 +1438,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 26743,
 	},
 	{
-		time_period_start: "2023-05-27T19:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T19:00:00.0000000Z"),
 		time_period_end: "2023-05-27T19:30:00.0000000Z",
 		price_open: 26720,
 		price_high: 26770,
@@ -1446,7 +1446,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 26768,
 	},
 	{
-		time_period_start: "2023-05-27T18:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T18:30:00.0000000Z"),
 		time_period_end: "2023-05-27T19:00:00.0000000Z",
 		price_open: 26753,
 		price_high: 26842,
@@ -1454,7 +1454,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 26715,
 	},
 	{
-		time_period_start: "2023-05-27T18:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T18:00:00.0000000Z"),
 		time_period_end: "2023-05-27T18:30:00.0000000Z",
 		price_open: 26765,
 		price_high: 26768,
@@ -1462,7 +1462,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 26754,
 	},
 	{
-		time_period_start: "2023-05-27T17:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T17:30:00.0000000Z"),
 		time_period_end: "2023-05-27T18:00:00.0000000Z",
 		price_open: 26686,
 		price_high: 26768,
@@ -1470,7 +1470,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 26760,
 	},
 	{
-		time_period_start: "2023-05-27T17:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T17:00:00.0000000Z"),
 		time_period_end: "2023-05-27T17:30:00.0000000Z",
 		price_open: 26671,
 		price_high: 26691,
@@ -1478,7 +1478,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 26686,
 	},
 	{
-		time_period_start: "2023-05-27T16:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T16:30:00.0000000Z"),
 		time_period_end: "2023-05-27T17:00:00.0000000Z",
 		price_open: 26681,
 		price_high: 26683,
@@ -1486,7 +1486,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 26672,
 	},
 	{
-		time_period_start: "2023-05-27T16:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T16:00:00.0000000Z"),
 		time_period_end: "2023-05-27T16:30:00.0000000Z",
 		price_open: 26695,
 		price_high: 26698,
@@ -1494,7 +1494,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 26681,
 	},
 	{
-		time_period_start: "2023-05-27T15:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T15:30:00.0000000Z"),
 		time_period_end: "2023-05-27T16:00:00.0000000Z",
 		price_open: 26683,
 		price_high: 26693,
@@ -1502,7 +1502,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 26693,
 	},
 	{
-		time_period_start: "2023-05-27T15:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T15:00:00.0000000Z"),
 		time_period_end: "2023-05-27T15:30:00.0000000Z",
 		price_open: 26682,
 		price_high: 26687,
@@ -1510,7 +1510,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 26679,
 	},
 	{
-		time_period_start: "2023-05-27T14:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T14:30:00.0000000Z"),
 		time_period_end: "2023-05-27T15:00:00.0000000Z",
 		price_open: 26705,
 		price_high: 26706,
@@ -1518,7 +1518,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 26679,
 	},
 	{
-		time_period_start: "2023-05-27T14:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T14:00:00.0000000Z"),
 		time_period_end: "2023-05-27T14:30:00.0000000Z",
 		price_open: 26635,
 		price_high: 26722,
@@ -1526,7 +1526,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 26705,
 	},
 	{
-		time_period_start: "2023-05-27T13:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T13:30:00.0000000Z"),
 		time_period_end: "2023-05-27T14:00:00.0000000Z",
 		price_open: 26771,
 		price_high: 26782,
@@ -1534,7 +1534,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 26633,
 	},
 	{
-		time_period_start: "2023-05-27T13:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T13:00:00.0000000Z"),
 		time_period_end: "2023-05-27T13:30:00.0000000Z",
 		price_open: 26722,
 		price_high: 26771,
@@ -1542,7 +1542,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 26767,
 	},
 	{
-		time_period_start: "2023-05-27T12:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T12:30:00.0000000Z"),
 		time_period_end: "2023-05-27T13:00:00.0000000Z",
 		price_open: 26737,
 		price_high: 26745,
@@ -1550,7 +1550,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 26722,
 	},
 	{
-		time_period_start: "2023-05-27T12:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T12:00:00.0000000Z"),
 		time_period_end: "2023-05-27T12:30:00.0000000Z",
 		price_open: 26707,
 		price_high: 26744,
@@ -1558,7 +1558,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 26737,
 	},
 	{
-		time_period_start: "2023-05-27T11:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T11:30:00.0000000Z"),
 		time_period_end: "2023-05-27T12:00:00.0000000Z",
 		price_open: 26695,
 		price_high: 26714,
@@ -1566,7 +1566,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 26708,
 	},
 	{
-		time_period_start: "2023-05-27T11:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T11:00:00.0000000Z"),
 		time_period_end: "2023-05-27T11:30:00.0000000Z",
 		price_open: 26685,
 		price_high: 26699,
@@ -1574,7 +1574,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 26699,
 	},
 	{
-		time_period_start: "2023-05-27T10:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T10:30:00.0000000Z"),
 		time_period_end: "2023-05-27T11:00:00.0000000Z",
 		price_open: 26709,
 		price_high: 26709,
@@ -1582,7 +1582,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 26688,
 	},
 	{
-		time_period_start: "2023-05-27T10:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T10:00:00.0000000Z"),
 		time_period_end: "2023-05-27T10:30:00.0000000Z",
 		price_open: 26711,
 		price_high: 26725,
@@ -1590,7 +1590,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 26710,
 	},
 	{
-		time_period_start: "2023-05-27T09:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T09:30:00.0000000Z"),
 		time_period_end: "2023-05-27T10:00:00.0000000Z",
 		price_open: 26708,
 		price_high: 26738,
@@ -1598,7 +1598,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 26710,
 	},
 	{
-		time_period_start: "2023-05-27T09:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T09:00:00.0000000Z"),
 		time_period_end: "2023-05-27T09:30:00.0000000Z",
 		price_open: 26698,
 		price_high: 26713,
@@ -1606,7 +1606,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 26710,
 	},
 	{
-		time_period_start: "2023-05-27T08:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T08:30:00.0000000Z"),
 		time_period_end: "2023-05-27T09:00:00.0000000Z",
 		price_open: 26712,
 		price_high: 26715,
@@ -1614,7 +1614,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 26698,
 	},
 	{
-		time_period_start: "2023-05-27T08:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T08:00:00.0000000Z"),
 		time_period_end: "2023-05-27T08:30:00.0000000Z",
 		price_open: 26735,
 		price_high: 26735,
@@ -1622,7 +1622,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 26712,
 	},
 	{
-		time_period_start: "2023-05-27T07:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T07:30:00.0000000Z"),
 		time_period_end: "2023-05-27T08:00:00.0000000Z",
 		price_open: 26735,
 		price_high: 26736,
@@ -1630,7 +1630,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 26736,
 	},
 	{
-		time_period_start: "2023-05-27T07:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T07:00:00.0000000Z"),
 		time_period_end: "2023-05-27T07:30:00.0000000Z",
 		price_open: 26757,
 		price_high: 26757,
@@ -1638,7 +1638,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 26735,
 	},
 	{
-		time_period_start: "2023-05-27T06:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T06:30:00.0000000Z"),
 		time_period_end: "2023-05-27T07:00:00.0000000Z",
 		price_open: 26724,
 		price_high: 26768,
@@ -1646,7 +1646,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 26756,
 	},
 	{
-		time_period_start: "2023-05-27T06:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T06:00:00.0000000Z"),
 		time_period_end: "2023-05-27T06:30:00.0000000Z",
 		price_open: 26741,
 		price_high: 26750,
@@ -1654,7 +1654,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 26723,
 	},
 	{
-		time_period_start: "2023-05-27T05:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T05:30:00.0000000Z"),
 		time_period_end: "2023-05-27T06:00:00.0000000Z",
 		price_open: 26754,
 		price_high: 26758,
@@ -1662,7 +1662,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 26745,
 	},
 	{
-		time_period_start: "2023-05-27T05:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T05:00:00.0000000Z"),
 		time_period_end: "2023-05-27T05:30:00.0000000Z",
 		price_open: 26767,
 		price_high: 26778,
@@ -1670,7 +1670,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 26755,
 	},
 	{
-		time_period_start: "2023-05-27T04:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T04:30:00.0000000Z"),
 		time_period_end: "2023-05-27T05:00:00.0000000Z",
 		price_open: 26750,
 		price_high: 26794,
@@ -1678,7 +1678,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 26769,
 	},
 	{
-		time_period_start: "2023-05-27T04:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T04:00:00.0000000Z"),
 		time_period_end: "2023-05-27T04:30:00.0000000Z",
 		price_open: 26766,
 		price_high: 26770,
@@ -1686,7 +1686,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 26750,
 	},
 	{
-		time_period_start: "2023-05-27T03:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T03:30:00.0000000Z"),
 		time_period_end: "2023-05-27T04:00:00.0000000Z",
 		price_open: 26732,
 		price_high: 26784,
@@ -1694,7 +1694,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 26761,
 	},
 	{
-		time_period_start: "2023-05-27T03:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T03:00:00.0000000Z"),
 		time_period_end: "2023-05-27T03:30:00.0000000Z",
 		price_open: 26749,
 		price_high: 26752,
@@ -1702,7 +1702,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 26731,
 	},
 	{
-		time_period_start: "2023-05-27T02:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T02:30:00.0000000Z"),
 		time_period_end: "2023-05-27T03:00:00.0000000Z",
 		price_open: 26706,
 		price_high: 26747,
@@ -1710,7 +1710,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 26747,
 	},
 	{
-		time_period_start: "2023-05-27T02:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T02:00:00.0000000Z"),
 		time_period_end: "2023-05-27T02:30:00.0000000Z",
 		price_open: 26720,
 		price_high: 26736,
@@ -1718,7 +1718,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 26706,
 	},
 	{
-		time_period_start: "2023-05-27T01:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T01:30:00.0000000Z"),
 		time_period_end: "2023-05-27T02:00:00.0000000Z",
 		price_open: 26709,
 		price_high: 26720,
@@ -1726,7 +1726,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 26720,
 	},
 	{
-		time_period_start: "2023-05-27T01:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T01:00:00.0000000Z"),
 		time_period_end: "2023-05-27T01:30:00.0000000Z",
 		price_open: 26665,
 		price_high: 26710,
@@ -1734,7 +1734,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 26700,
 	},
 	{
-		time_period_start: "2023-05-27T00:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T00:30:00.0000000Z"),
 		time_period_end: "2023-05-27T01:00:00.0000000Z",
 		price_open: 26671,
 		price_high: 26682,
@@ -1742,7 +1742,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 26665,
 	},
 	{
-		time_period_start: "2023-05-27T00:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T00:00:00.0000000Z"),
 		time_period_end: "2023-05-27T00:30:00.0000000Z",
 		price_open: 26716,
 		price_high: 26726,
@@ -1750,7 +1750,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 26671,
 	},
 	{
-		time_period_start: "2023-05-26T23:30:00.0000000Z",
+		time_period_start: new Date("2023-05-26T23:30:00.0000000Z"),
 		time_period_end: "2023-05-27T00:00:00.0000000Z",
 		price_open: 26714,
 		price_high: 26733,
@@ -1758,7 +1758,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 26718,
 	},
 	{
-		time_period_start: "2023-05-26T23:00:00.0000000Z",
+		time_period_start: new Date("2023-05-26T23:00:00.0000000Z"),
 		time_period_end: "2023-05-26T23:30:00.0000000Z",
 		price_open: 26707,
 		price_high: 26741,
@@ -1766,7 +1766,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 26709,
 	},
 	{
-		time_period_start: "2023-05-26T22:30:00.0000000Z",
+		time_period_start: new Date("2023-05-26T22:30:00.0000000Z"),
 		time_period_end: "2023-05-26T23:00:00.0000000Z",
 		price_open: 26751,
 		price_high: 26756,
@@ -1774,7 +1774,7 @@ export const BlokDefaultBitCoinData = [
 		price_close: 26701,
 	},
 	{
-		time_period_start: "2023-05-26T22:00:00.0000000Z",
+		time_period_start: new Date("2023-05-26T22:00:00.0000000Z"),
 		time_period_end: "2023-05-26T22:30:00.0000000Z",
 		price_open: 26739,
 		price_high: 26764,
@@ -1785,7 +1785,7 @@ export const BlokDefaultBitCoinData = [
 
 export const BlokDefaultEthereumData = [
 	{
-		time_period_start: "2023-05-28T23:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T23:30:00.0000000Z"),
 		time_period_end: "2023-05-29T00:00:00.0000000Z",
 		price_open: 1910,
 		price_high: 1917.8,
@@ -1793,7 +1793,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1914.5,
 	},
 	{
-		time_period_start: "2023-05-28T23:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T23:00:00.0000000Z"),
 		time_period_end: "2023-05-28T23:30:00.0000000Z",
 		price_open: 1908,
 		price_high: 1915.8,
@@ -1801,7 +1801,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1909.9,
 	},
 	{
-		time_period_start: "2023-05-28T22:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T22:30:00.0000000Z"),
 		time_period_end: "2023-05-28T23:00:00.0000000Z",
 		price_open: 1906.1,
 		price_high: 1908.3,
@@ -1809,7 +1809,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1907.6,
 	},
 	{
-		time_period_start: "2023-05-28T22:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T22:00:00.0000000Z"),
 		time_period_end: "2023-05-28T22:30:00.0000000Z",
 		price_open: 1869,
 		price_high: 1920.2,
@@ -1817,7 +1817,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1905.6,
 	},
 	{
-		time_period_start: "2023-05-28T21:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T21:30:00.0000000Z"),
 		time_period_end: "2023-05-28T22:00:00.0000000Z",
 		price_open: 1856.6,
 		price_high: 1869.4,
@@ -1825,7 +1825,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1868.9,
 	},
 	{
-		time_period_start: "2023-05-28T21:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T21:00:00.0000000Z"),
 		time_period_end: "2023-05-28T21:30:00.0000000Z",
 		price_open: 1854.1,
 		price_high: 1858.8,
@@ -1833,7 +1833,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1857.1,
 	},
 	{
-		time_period_start: "2023-05-28T20:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T20:30:00.0000000Z"),
 		time_period_end: "2023-05-28T21:00:00.0000000Z",
 		price_open: 1852.5,
 		price_high: 1855.5,
@@ -1841,7 +1841,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1854.1,
 	},
 	{
-		time_period_start: "2023-05-28T20:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T20:00:00.0000000Z"),
 		time_period_end: "2023-05-28T20:30:00.0000000Z",
 		price_open: 1850.3,
 		price_high: 1853.1,
@@ -1849,7 +1849,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1852.5,
 	},
 	{
-		time_period_start: "2023-05-28T19:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T19:30:00.0000000Z"),
 		time_period_end: "2023-05-28T20:00:00.0000000Z",
 		price_open: 1854.2,
 		price_high: 1855.2,
@@ -1857,7 +1857,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1849.2,
 	},
 	{
-		time_period_start: "2023-05-28T19:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T19:00:00.0000000Z"),
 		time_period_end: "2023-05-28T19:30:00.0000000Z",
 		price_open: 1852.4,
 		price_high: 1854.9,
@@ -1865,7 +1865,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1854.2,
 	},
 	{
-		time_period_start: "2023-05-28T18:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T18:30:00.0000000Z"),
 		time_period_end: "2023-05-28T19:00:00.0000000Z",
 		price_open: 1850.3,
 		price_high: 1856.8,
@@ -1873,7 +1873,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1851.8,
 	},
 	{
-		time_period_start: "2023-05-28T18:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T18:00:00.0000000Z"),
 		time_period_end: "2023-05-28T18:30:00.0000000Z",
 		price_open: 1846.5,
 		price_high: 1858.5,
@@ -1881,7 +1881,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1852.4,
 	},
 	{
-		time_period_start: "2023-05-28T17:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T17:30:00.0000000Z"),
 		time_period_end: "2023-05-28T18:00:00.0000000Z",
 		price_open: 1843.9,
 		price_high: 1852,
@@ -1889,7 +1889,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1848,
 	},
 	{
-		time_period_start: "2023-05-28T17:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T17:00:00.0000000Z"),
 		time_period_end: "2023-05-28T17:30:00.0000000Z",
 		price_open: 1844.8,
 		price_high: 1845.2,
@@ -1897,7 +1897,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1843.9,
 	},
 	{
-		time_period_start: "2023-05-28T16:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T16:30:00.0000000Z"),
 		time_period_end: "2023-05-28T17:00:00.0000000Z",
 		price_open: 1843.2,
 		price_high: 1845,
@@ -1905,7 +1905,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1845,
 	},
 	{
-		time_period_start: "2023-05-28T16:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T16:00:00.0000000Z"),
 		time_period_end: "2023-05-28T16:30:00.0000000Z",
 		price_open: 1844.5,
 		price_high: 1846.7,
@@ -1913,7 +1913,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1843.2,
 	},
 	{
-		time_period_start: "2023-05-28T15:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T15:30:00.0000000Z"),
 		time_period_end: "2023-05-28T16:00:00.0000000Z",
 		price_open: 1841.9,
 		price_high: 1844.5,
@@ -1921,7 +1921,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1844.5,
 	},
 	{
-		time_period_start: "2023-05-28T15:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T15:00:00.0000000Z"),
 		time_period_end: "2023-05-28T15:30:00.0000000Z",
 		price_open: 1840.2,
 		price_high: 1843.7,
@@ -1929,7 +1929,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1841.9,
 	},
 	{
-		time_period_start: "2023-05-28T14:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T14:30:00.0000000Z"),
 		time_period_end: "2023-05-28T15:00:00.0000000Z",
 		price_open: 1840.7,
 		price_high: 1842.5,
@@ -1937,7 +1937,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1840.3,
 	},
 	{
-		time_period_start: "2023-05-28T14:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T14:00:00.0000000Z"),
 		time_period_end: "2023-05-28T14:30:00.0000000Z",
 		price_open: 1844.2,
 		price_high: 1844.6,
@@ -1945,7 +1945,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1840.8,
 	},
 	{
-		time_period_start: "2023-05-28T13:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T13:30:00.0000000Z"),
 		time_period_end: "2023-05-28T14:00:00.0000000Z",
 		price_open: 1844.2,
 		price_high: 1845.4,
@@ -1953,7 +1953,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1843.9,
 	},
 	{
-		time_period_start: "2023-05-28T13:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T13:00:00.0000000Z"),
 		time_period_end: "2023-05-28T13:30:00.0000000Z",
 		price_open: 1841.1,
 		price_high: 1843.6,
@@ -1961,7 +1961,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1843,
 	},
 	{
-		time_period_start: "2023-05-28T12:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T12:30:00.0000000Z"),
 		time_period_end: "2023-05-28T13:00:00.0000000Z",
 		price_open: 1842,
 		price_high: 1842,
@@ -1969,7 +1969,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1840.5,
 	},
 	{
-		time_period_start: "2023-05-28T12:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T12:00:00.0000000Z"),
 		time_period_end: "2023-05-28T12:30:00.0000000Z",
 		price_open: 1844.1,
 		price_high: 1845,
@@ -1977,7 +1977,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1843.5,
 	},
 	{
-		time_period_start: "2023-05-28T11:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T11:30:00.0000000Z"),
 		time_period_end: "2023-05-28T12:00:00.0000000Z",
 		price_open: 1846.3,
 		price_high: 1846.6,
@@ -1985,7 +1985,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1844.3,
 	},
 	{
-		time_period_start: "2023-05-28T11:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T11:00:00.0000000Z"),
 		time_period_end: "2023-05-28T11:30:00.0000000Z",
 		price_open: 1846.5,
 		price_high: 1850.5,
@@ -1993,7 +1993,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1846.1,
 	},
 	{
-		time_period_start: "2023-05-28T10:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T10:30:00.0000000Z"),
 		time_period_end: "2023-05-28T11:00:00.0000000Z",
 		price_open: 1845,
 		price_high: 1846.7,
@@ -2001,7 +2001,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1845.9,
 	},
 	{
-		time_period_start: "2023-05-28T10:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T10:00:00.0000000Z"),
 		time_period_end: "2023-05-28T10:30:00.0000000Z",
 		price_open: 1845,
 		price_high: 1845.9,
@@ -2009,7 +2009,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1844.7,
 	},
 	{
-		time_period_start: "2023-05-28T09:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T09:30:00.0000000Z"),
 		time_period_end: "2023-05-28T10:00:00.0000000Z",
 		price_open: 1847.2,
 		price_high: 1847.2,
@@ -2017,7 +2017,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1845,
 	},
 	{
-		time_period_start: "2023-05-28T09:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T09:00:00.0000000Z"),
 		time_period_end: "2023-05-28T09:30:00.0000000Z",
 		price_open: 1846.4,
 		price_high: 1847,
@@ -2025,7 +2025,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1846.8,
 	},
 	{
-		time_period_start: "2023-05-28T08:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T08:30:00.0000000Z"),
 		time_period_end: "2023-05-28T09:00:00.0000000Z",
 		price_open: 1846.8,
 		price_high: 1847.5,
@@ -2033,7 +2033,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1845.7,
 	},
 	{
-		time_period_start: "2023-05-28T08:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T08:00:00.0000000Z"),
 		time_period_end: "2023-05-28T08:30:00.0000000Z",
 		price_open: 1848.9,
 		price_high: 1848.9,
@@ -2041,7 +2041,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1846.6,
 	},
 	{
-		time_period_start: "2023-05-28T07:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T07:30:00.0000000Z"),
 		time_period_end: "2023-05-28T08:00:00.0000000Z",
 		price_open: 1848.1,
 		price_high: 1849.3,
@@ -2049,7 +2049,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1848.5,
 	},
 	{
-		time_period_start: "2023-05-28T07:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T07:00:00.0000000Z"),
 		time_period_end: "2023-05-28T07:30:00.0000000Z",
 		price_open: 1847,
 		price_high: 1848,
@@ -2057,7 +2057,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1848,
 	},
 	{
-		time_period_start: "2023-05-28T06:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T06:30:00.0000000Z"),
 		time_period_end: "2023-05-28T07:00:00.0000000Z",
 		price_open: 1849.3,
 		price_high: 1849.8,
@@ -2065,7 +2065,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1845.9,
 	},
 	{
-		time_period_start: "2023-05-28T06:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T06:00:00.0000000Z"),
 		time_period_end: "2023-05-28T06:30:00.0000000Z",
 		price_open: 1847.9,
 		price_high: 1849.9,
@@ -2073,7 +2073,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1849.6,
 	},
 	{
-		time_period_start: "2023-05-28T05:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T05:30:00.0000000Z"),
 		time_period_end: "2023-05-28T06:00:00.0000000Z",
 		price_open: 1848.7,
 		price_high: 1849.1,
@@ -2081,7 +2081,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1847.9,
 	},
 	{
-		time_period_start: "2023-05-28T05:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T05:00:00.0000000Z"),
 		time_period_end: "2023-05-28T05:30:00.0000000Z",
 		price_open: 1850,
 		price_high: 1851.2,
@@ -2089,7 +2089,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1849.1,
 	},
 	{
-		time_period_start: "2023-05-28T04:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T04:30:00.0000000Z"),
 		time_period_end: "2023-05-28T05:00:00.0000000Z",
 		price_open: 1851.6,
 		price_high: 1853.1,
@@ -2097,7 +2097,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1849.7,
 	},
 	{
-		time_period_start: "2023-05-28T04:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T04:00:00.0000000Z"),
 		time_period_end: "2023-05-28T04:30:00.0000000Z",
 		price_open: 1852.3,
 		price_high: 1858.7,
@@ -2105,7 +2105,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1851.2,
 	},
 	{
-		time_period_start: "2023-05-28T03:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T03:30:00.0000000Z"),
 		time_period_end: "2023-05-28T04:00:00.0000000Z",
 		price_open: 1848.3,
 		price_high: 1855.4,
@@ -2113,7 +2113,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1851.3,
 	},
 	{
-		time_period_start: "2023-05-28T03:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T03:00:00.0000000Z"),
 		time_period_end: "2023-05-28T03:30:00.0000000Z",
 		price_open: 1847.1,
 		price_high: 1848.9,
@@ -2121,7 +2121,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1847.8,
 	},
 	{
-		time_period_start: "2023-05-28T02:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T02:30:00.0000000Z"),
 		time_period_end: "2023-05-28T03:00:00.0000000Z",
 		price_open: 1849.1,
 		price_high: 1849.7,
@@ -2129,7 +2129,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1847.1,
 	},
 	{
-		time_period_start: "2023-05-28T02:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T02:00:00.0000000Z"),
 		time_period_end: "2023-05-28T02:30:00.0000000Z",
 		price_open: 1850.6,
 		price_high: 1851.7,
@@ -2137,7 +2137,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1849.6,
 	},
 	{
-		time_period_start: "2023-05-28T01:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T01:30:00.0000000Z"),
 		time_period_end: "2023-05-28T02:00:00.0000000Z",
 		price_open: 1853.6,
 		price_high: 1854.3,
@@ -2145,7 +2145,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1849.6,
 	},
 	{
-		time_period_start: "2023-05-28T01:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T01:00:00.0000000Z"),
 		time_period_end: "2023-05-28T01:30:00.0000000Z",
 		price_open: 1850.6,
 		price_high: 1860.2,
@@ -2153,7 +2153,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1853.6,
 	},
 	{
-		time_period_start: "2023-05-28T00:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T00:30:00.0000000Z"),
 		time_period_end: "2023-05-28T01:00:00.0000000Z",
 		price_open: 1826.4,
 		price_high: 1855,
@@ -2161,7 +2161,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1850.3,
 	},
 	{
-		time_period_start: "2023-05-28T00:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T00:00:00.0000000Z"),
 		time_period_end: "2023-05-28T00:30:00.0000000Z",
 		price_open: 1831,
 		price_high: 1831.1,
@@ -2169,7 +2169,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1826.3,
 	},
 	{
-		time_period_start: "2023-05-27T23:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T23:30:00.0000000Z"),
 		time_period_end: "2023-05-28T00:00:00.0000000Z",
 		price_open: 1830.2,
 		price_high: 1832.7,
@@ -2177,7 +2177,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1831,
 	},
 	{
-		time_period_start: "2023-05-27T23:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T23:00:00.0000000Z"),
 		time_period_end: "2023-05-27T23:30:00.0000000Z",
 		price_open: 1831.1,
 		price_high: 1831.8,
@@ -2185,7 +2185,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1830.2,
 	},
 	{
-		time_period_start: "2023-05-27T22:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T22:30:00.0000000Z"),
 		time_period_end: "2023-05-27T23:00:00.0000000Z",
 		price_open: 1830.3,
 		price_high: 1832.8,
@@ -2193,7 +2193,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1831,
 	},
 	{
-		time_period_start: "2023-05-27T22:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T22:00:00.0000000Z"),
 		time_period_end: "2023-05-27T22:30:00.0000000Z",
 		price_open: 1829,
 		price_high: 1829.8,
@@ -2201,7 +2201,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1829.8,
 	},
 	{
-		time_period_start: "2023-05-27T21:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T21:30:00.0000000Z"),
 		time_period_end: "2023-05-27T22:00:00.0000000Z",
 		price_open: 1825.9,
 		price_high: 1829,
@@ -2209,7 +2209,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1828.9,
 	},
 	{
-		time_period_start: "2023-05-27T21:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T21:00:00.0000000Z"),
 		time_period_end: "2023-05-27T21:30:00.0000000Z",
 		price_open: 1828.8,
 		price_high: 1829,
@@ -2217,7 +2217,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1825.7,
 	},
 	{
-		time_period_start: "2023-05-27T20:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T20:30:00.0000000Z"),
 		time_period_end: "2023-05-27T21:00:00.0000000Z",
 		price_open: 1827.7,
 		price_high: 1828.2,
@@ -2225,7 +2225,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1828.2,
 	},
 	{
-		time_period_start: "2023-05-27T20:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T20:00:00.0000000Z"),
 		time_period_end: "2023-05-27T20:30:00.0000000Z",
 		price_open: 1826.7,
 		price_high: 1827.7,
@@ -2233,7 +2233,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1827.7,
 	},
 	{
-		time_period_start: "2023-05-27T19:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T19:30:00.0000000Z"),
 		time_period_end: "2023-05-27T20:00:00.0000000Z",
 		price_open: 1825,
 		price_high: 1827.9,
@@ -2241,7 +2241,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1826.4,
 	},
 	{
-		time_period_start: "2023-05-27T19:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T19:00:00.0000000Z"),
 		time_period_end: "2023-05-27T19:30:00.0000000Z",
 		price_open: 1822.1,
 		price_high: 1825.5,
@@ -2249,7 +2249,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1825,
 	},
 	{
-		time_period_start: "2023-05-27T18:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T18:30:00.0000000Z"),
 		time_period_end: "2023-05-27T19:00:00.0000000Z",
 		price_open: 1825.2,
 		price_high: 1830.1,
@@ -2257,7 +2257,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1822.1,
 	},
 	{
-		time_period_start: "2023-05-27T18:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T18:00:00.0000000Z"),
 		time_period_end: "2023-05-27T18:30:00.0000000Z",
 		price_open: 1824.7,
 		price_high: 1825.9,
@@ -2265,7 +2265,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1825.1,
 	},
 	{
-		time_period_start: "2023-05-27T17:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T17:30:00.0000000Z"),
 		time_period_end: "2023-05-27T18:00:00.0000000Z",
 		price_open: 1821.9,
 		price_high: 1826.3,
@@ -2273,7 +2273,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1824.8,
 	},
 	{
-		time_period_start: "2023-05-27T17:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T17:00:00.0000000Z"),
 		time_period_end: "2023-05-27T17:30:00.0000000Z",
 		price_open: 1822.4,
 		price_high: 1822.8,
@@ -2281,7 +2281,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1821.9,
 	},
 	{
-		time_period_start: "2023-05-27T16:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T16:30:00.0000000Z"),
 		time_period_end: "2023-05-27T17:00:00.0000000Z",
 		price_open: 1821.9,
 		price_high: 1822.5,
@@ -2289,7 +2289,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1822,
 	},
 	{
-		time_period_start: "2023-05-27T16:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T16:00:00.0000000Z"),
 		time_period_end: "2023-05-27T16:30:00.0000000Z",
 		price_open: 1824.5,
 		price_high: 1824.5,
@@ -2297,7 +2297,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1822,
 	},
 	{
-		time_period_start: "2023-05-27T15:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T15:30:00.0000000Z"),
 		time_period_end: "2023-05-27T16:00:00.0000000Z",
 		price_open: 1824.2,
 		price_high: 1824.3,
@@ -2305,7 +2305,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1824.3,
 	},
 	{
-		time_period_start: "2023-05-27T15:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T15:00:00.0000000Z"),
 		time_period_end: "2023-05-27T15:30:00.0000000Z",
 		price_open: 1823.5,
 		price_high: 1824.8,
@@ -2313,7 +2313,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1823.9,
 	},
 	{
-		time_period_start: "2023-05-27T14:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T14:30:00.0000000Z"),
 		time_period_end: "2023-05-27T15:00:00.0000000Z",
 		price_open: 1823.8,
 		price_high: 1825,
@@ -2321,7 +2321,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1823.5,
 	},
 	{
-		time_period_start: "2023-05-27T14:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T14:00:00.0000000Z"),
 		time_period_end: "2023-05-27T14:30:00.0000000Z",
 		price_open: 1819.1,
 		price_high: 1826.6,
@@ -2329,7 +2329,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1824.8,
 	},
 	{
-		time_period_start: "2023-05-27T13:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T13:30:00.0000000Z"),
 		time_period_end: "2023-05-27T14:00:00.0000000Z",
 		price_open: 1830.8,
 		price_high: 1831.1,
@@ -2337,7 +2337,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1820.8,
 	},
 	{
-		time_period_start: "2023-05-27T13:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T13:00:00.0000000Z"),
 		time_period_end: "2023-05-27T13:30:00.0000000Z",
 		price_open: 1829.5,
 		price_high: 1832.7,
@@ -2345,7 +2345,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1831.9,
 	},
 	{
-		time_period_start: "2023-05-27T12:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T12:30:00.0000000Z"),
 		time_period_end: "2023-05-27T13:00:00.0000000Z",
 		price_open: 1829.2,
 		price_high: 1830.4,
@@ -2353,7 +2353,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1828.9,
 	},
 	{
-		time_period_start: "2023-05-27T12:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T12:00:00.0000000Z"),
 		time_period_end: "2023-05-27T12:30:00.0000000Z",
 		price_open: 1827.8,
 		price_high: 1829.4,
@@ -2361,7 +2361,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1829.3,
 	},
 	{
-		time_period_start: "2023-05-27T11:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T11:30:00.0000000Z"),
 		time_period_end: "2023-05-27T12:00:00.0000000Z",
 		price_open: 1827.4,
 		price_high: 1828.9,
@@ -2369,7 +2369,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1827.8,
 	},
 	{
-		time_period_start: "2023-05-27T11:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T11:00:00.0000000Z"),
 		time_period_end: "2023-05-27T11:30:00.0000000Z",
 		price_open: 1827.3,
 		price_high: 1827.5,
@@ -2377,7 +2377,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1827.5,
 	},
 	{
-		time_period_start: "2023-05-27T10:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T10:30:00.0000000Z"),
 		time_period_end: "2023-05-27T11:00:00.0000000Z",
 		price_open: 1827.5,
 		price_high: 1827.7,
@@ -2385,7 +2385,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1827.1,
 	},
 	{
-		time_period_start: "2023-05-27T10:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T10:00:00.0000000Z"),
 		time_period_end: "2023-05-27T10:30:00.0000000Z",
 		price_open: 1827.6,
 		price_high: 1828.7,
@@ -2393,7 +2393,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1827.4,
 	},
 	{
-		time_period_start: "2023-05-27T09:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T09:30:00.0000000Z"),
 		time_period_end: "2023-05-27T10:00:00.0000000Z",
 		price_open: 1829.7,
 		price_high: 1830.5,
@@ -2401,7 +2401,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1827.7,
 	},
 	{
-		time_period_start: "2023-05-27T09:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T09:00:00.0000000Z"),
 		time_period_end: "2023-05-27T09:30:00.0000000Z",
 		price_open: 1828.8,
 		price_high: 1830.7,
@@ -2409,7 +2409,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1830,
 	},
 	{
-		time_period_start: "2023-05-27T08:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T08:30:00.0000000Z"),
 		time_period_end: "2023-05-27T09:00:00.0000000Z",
 		price_open: 1829.9,
 		price_high: 1830.6,
@@ -2417,7 +2417,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1829,
 	},
 	{
-		time_period_start: "2023-05-27T08:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T08:00:00.0000000Z"),
 		time_period_end: "2023-05-27T08:30:00.0000000Z",
 		price_open: 1830.4,
 		price_high: 1830.5,
@@ -2425,7 +2425,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1829.9,
 	},
 	{
-		time_period_start: "2023-05-27T07:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T07:30:00.0000000Z"),
 		time_period_end: "2023-05-27T08:00:00.0000000Z",
 		price_open: 1832.2,
 		price_high: 1832.2,
@@ -2433,7 +2433,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1830.6,
 	},
 	{
-		time_period_start: "2023-05-27T07:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T07:00:00.0000000Z"),
 		time_period_end: "2023-05-27T07:30:00.0000000Z",
 		price_open: 1833.8,
 		price_high: 1833.9,
@@ -2441,7 +2441,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1832.3,
 	},
 	{
-		time_period_start: "2023-05-27T06:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T06:30:00.0000000Z"),
 		time_period_end: "2023-05-27T07:00:00.0000000Z",
 		price_open: 1831.2,
 		price_high: 1834.5,
@@ -2449,7 +2449,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1833.6,
 	},
 	{
-		time_period_start: "2023-05-27T06:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T06:00:00.0000000Z"),
 		time_period_end: "2023-05-27T06:30:00.0000000Z",
 		price_open: 1832.4,
 		price_high: 1833.3,
@@ -2457,7 +2457,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1831.2,
 	},
 	{
-		time_period_start: "2023-05-27T05:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T05:30:00.0000000Z"),
 		time_period_end: "2023-05-27T06:00:00.0000000Z",
 		price_open: 1831.6,
 		price_high: 1832.7,
@@ -2465,7 +2465,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1832.4,
 	},
 	{
-		time_period_start: "2023-05-27T05:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T05:00:00.0000000Z"),
 		time_period_end: "2023-05-27T05:30:00.0000000Z",
 		price_open: 1834.5,
 		price_high: 1835.4,
@@ -2473,7 +2473,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1832.2,
 	},
 	{
-		time_period_start: "2023-05-27T04:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T04:30:00.0000000Z"),
 		time_period_end: "2023-05-27T05:00:00.0000000Z",
 		price_open: 1833.3,
 		price_high: 1836.2,
@@ -2481,7 +2481,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1834.8,
 	},
 	{
-		time_period_start: "2023-05-27T04:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T04:00:00.0000000Z"),
 		time_period_end: "2023-05-27T04:30:00.0000000Z",
 		price_open: 1835.1,
 		price_high: 1835.4,
@@ -2489,7 +2489,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1833.2,
 	},
 	{
-		time_period_start: "2023-05-27T03:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T03:30:00.0000000Z"),
 		time_period_end: "2023-05-27T04:00:00.0000000Z",
 		price_open: 1833.2,
 		price_high: 1836.8,
@@ -2497,7 +2497,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1834.7,
 	},
 	{
-		time_period_start: "2023-05-27T03:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T03:00:00.0000000Z"),
 		time_period_end: "2023-05-27T03:30:00.0000000Z",
 		price_open: 1833.9,
 		price_high: 1834.4,
@@ -2505,7 +2505,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1833.2,
 	},
 	{
-		time_period_start: "2023-05-27T02:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T02:30:00.0000000Z"),
 		time_period_end: "2023-05-27T03:00:00.0000000Z",
 		price_open: 1828.7,
 		price_high: 1834.5,
@@ -2513,7 +2513,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1833.9,
 	},
 	{
-		time_period_start: "2023-05-27T02:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T02:00:00.0000000Z"),
 		time_period_end: "2023-05-27T02:30:00.0000000Z",
 		price_open: 1831,
 		price_high: 1831.8,
@@ -2521,7 +2521,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1828.5,
 	},
 	{
-		time_period_start: "2023-05-27T01:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T01:30:00.0000000Z"),
 		time_period_end: "2023-05-27T02:00:00.0000000Z",
 		price_open: 1829.2,
 		price_high: 1830.9,
@@ -2529,7 +2529,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1830.8,
 	},
 	{
-		time_period_start: "2023-05-27T01:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T01:00:00.0000000Z"),
 		time_period_end: "2023-05-27T01:30:00.0000000Z",
 		price_open: 1827.7,
 		price_high: 1829.2,
@@ -2537,7 +2537,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1828.9,
 	},
 	{
-		time_period_start: "2023-05-27T00:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T00:30:00.0000000Z"),
 		time_period_end: "2023-05-27T01:00:00.0000000Z",
 		price_open: 1827.2,
 		price_high: 1827.6,
@@ -2545,7 +2545,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1827.3,
 	},
 	{
-		time_period_start: "2023-05-27T00:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T00:00:00.0000000Z"),
 		time_period_end: "2023-05-27T00:30:00.0000000Z",
 		price_open: 1829.1,
 		price_high: 1829.1,
@@ -2553,7 +2553,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1827.2,
 	},
 	{
-		time_period_start: "2023-05-26T23:30:00.0000000Z",
+		time_period_start: new Date("2023-05-26T23:30:00.0000000Z"),
 		time_period_end: "2023-05-27T00:00:00.0000000Z",
 		price_open: 1829.3,
 		price_high: 1830.3,
@@ -2561,7 +2561,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1828.6,
 	},
 	{
-		time_period_start: "2023-05-26T23:00:00.0000000Z",
+		time_period_start: new Date("2023-05-26T23:00:00.0000000Z"),
 		time_period_end: "2023-05-26T23:30:00.0000000Z",
 		price_open: 1827.8,
 		price_high: 1830.3,
@@ -2569,7 +2569,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1829.2,
 	},
 	{
-		time_period_start: "2023-05-26T22:30:00.0000000Z",
+		time_period_start: new Date("2023-05-26T22:30:00.0000000Z"),
 		time_period_end: "2023-05-26T23:00:00.0000000Z",
 		price_open: 1832.5,
 		price_high: 1832.5,
@@ -2577,7 +2577,7 @@ export const BlokDefaultEthereumData = [
 		price_close: 1827.1,
 	},
 	{
-		time_period_start: "2023-05-26T22:00:00.0000000Z",
+		time_period_start: new Date("2023-05-26T22:00:00.0000000Z"),
 		time_period_end: "2023-05-26T22:30:00.0000000Z",
 		price_open: 1832.4,
 		price_high: 1832.6,
@@ -2588,7 +2588,7 @@ export const BlokDefaultEthereumData = [
 
 export const BlokDefaultTetherData = [
 	{
-		time_period_start: "2023-05-28T23:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T23:30:00.0000000Z"),
 		time_period_end: "2023-05-29T00:00:00.0000000Z",
 		price_open: 1.00019,
 		price_high: 1.00026,
@@ -2596,7 +2596,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00026,
 	},
 	{
-		time_period_start: "2023-05-28T23:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T23:00:00.0000000Z"),
 		time_period_end: "2023-05-28T23:30:00.0000000Z",
 		price_open: 1.00017,
 		price_high: 1.00028,
@@ -2604,7 +2604,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00023,
 	},
 	{
-		time_period_start: "2023-05-28T22:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T22:30:00.0000000Z"),
 		time_period_end: "2023-05-28T23:00:00.0000000Z",
 		price_open: 1.00013,
 		price_high: 1.00018,
@@ -2612,7 +2612,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00016,
 	},
 	{
-		time_period_start: "2023-05-28T22:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T22:00:00.0000000Z"),
 		time_period_end: "2023-05-28T22:30:00.0000000Z",
 		price_open: 1.00023,
 		price_high: 1.00027,
@@ -2620,7 +2620,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00018,
 	},
 	{
-		time_period_start: "2023-05-28T21:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T21:30:00.0000000Z"),
 		time_period_end: "2023-05-28T22:00:00.0000000Z",
 		price_open: 1.00028,
 		price_high: 1.00029,
@@ -2628,7 +2628,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00029,
 	},
 	{
-		time_period_start: "2023-05-28T21:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T21:00:00.0000000Z"),
 		time_period_end: "2023-05-28T21:30:00.0000000Z",
 		price_open: 1.00029,
 		price_high: 1.00029,
@@ -2636,7 +2636,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00028,
 	},
 	{
-		time_period_start: "2023-05-28T20:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T20:30:00.0000000Z"),
 		time_period_end: "2023-05-28T21:00:00.0000000Z",
 		price_open: 1.00029,
 		price_high: 1.00029,
@@ -2644,7 +2644,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00029,
 	},
 	{
-		time_period_start: "2023-05-28T20:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T20:00:00.0000000Z"),
 		time_period_end: "2023-05-28T20:30:00.0000000Z",
 		price_open: 1.00028,
 		price_high: 1.00029,
@@ -2652,7 +2652,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00029,
 	},
 	{
-		time_period_start: "2023-05-28T19:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T19:30:00.0000000Z"),
 		time_period_end: "2023-05-28T20:00:00.0000000Z",
 		price_open: 1.00029,
 		price_high: 1.00029,
@@ -2660,7 +2660,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00029,
 	},
 	{
-		time_period_start: "2023-05-28T19:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T19:00:00.0000000Z"),
 		time_period_end: "2023-05-28T19:30:00.0000000Z",
 		price_open: 1.00028,
 		price_high: 1.00029,
@@ -2668,7 +2668,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00029,
 	},
 	{
-		time_period_start: "2023-05-28T18:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T18:30:00.0000000Z"),
 		time_period_end: "2023-05-28T19:00:00.0000000Z",
 		price_open: 1.00021,
 		price_high: 1.00029,
@@ -2676,7 +2676,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00028,
 	},
 	{
-		time_period_start: "2023-05-28T18:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T18:00:00.0000000Z"),
 		time_period_end: "2023-05-28T18:30:00.0000000Z",
 		price_open: 1.00028,
 		price_high: 1.00028,
@@ -2684,7 +2684,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00021,
 	},
 	{
-		time_period_start: "2023-05-28T17:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T17:30:00.0000000Z"),
 		time_period_end: "2023-05-28T18:00:00.0000000Z",
 		price_open: 1.00028,
 		price_high: 1.00028,
@@ -2692,7 +2692,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00027,
 	},
 	{
-		time_period_start: "2023-05-28T17:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T17:00:00.0000000Z"),
 		time_period_end: "2023-05-28T17:30:00.0000000Z",
 		price_open: 1.00027,
 		price_high: 1.00028,
@@ -2700,7 +2700,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00028,
 	},
 	{
-		time_period_start: "2023-05-28T16:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T16:30:00.0000000Z"),
 		time_period_end: "2023-05-28T17:00:00.0000000Z",
 		price_open: 1.00028,
 		price_high: 1.00028,
@@ -2708,7 +2708,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00028,
 	},
 	{
-		time_period_start: "2023-05-28T16:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T16:00:00.0000000Z"),
 		time_period_end: "2023-05-28T16:30:00.0000000Z",
 		price_open: 1.00027,
 		price_high: 1.00028,
@@ -2716,7 +2716,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00027,
 	},
 	{
-		time_period_start: "2023-05-28T15:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T15:30:00.0000000Z"),
 		time_period_end: "2023-05-28T16:00:00.0000000Z",
 		price_open: 1.00027,
 		price_high: 1.00027,
@@ -2724,7 +2724,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00026,
 	},
 	{
-		time_period_start: "2023-05-28T15:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T15:00:00.0000000Z"),
 		time_period_end: "2023-05-28T15:30:00.0000000Z",
 		price_open: 1.00027,
 		price_high: 1.00027,
@@ -2732,7 +2732,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00026,
 	},
 	{
-		time_period_start: "2023-05-28T14:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T14:30:00.0000000Z"),
 		time_period_end: "2023-05-28T15:00:00.0000000Z",
 		price_open: 1.00028,
 		price_high: 1.00028,
@@ -2740,7 +2740,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00028,
 	},
 	{
-		time_period_start: "2023-05-28T14:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T14:00:00.0000000Z"),
 		time_period_end: "2023-05-28T14:30:00.0000000Z",
 		price_open: 1.00023,
 		price_high: 1.00028,
@@ -2748,7 +2748,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00028,
 	},
 	{
-		time_period_start: "2023-05-28T13:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T13:30:00.0000000Z"),
 		time_period_end: "2023-05-28T14:00:00.0000000Z",
 		price_open: 1.00026,
 		price_high: 1.00027,
@@ -2756,7 +2756,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00023,
 	},
 	{
-		time_period_start: "2023-05-28T13:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T13:00:00.0000000Z"),
 		time_period_end: "2023-05-28T13:30:00.0000000Z",
 		price_open: 1.00027,
 		price_high: 1.00027,
@@ -2764,7 +2764,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00027,
 	},
 	{
-		time_period_start: "2023-05-28T12:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T12:30:00.0000000Z"),
 		time_period_end: "2023-05-28T13:00:00.0000000Z",
 		price_open: 1.00027,
 		price_high: 1.00027,
@@ -2772,7 +2772,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00027,
 	},
 	{
-		time_period_start: "2023-05-28T12:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T12:00:00.0000000Z"),
 		time_period_end: "2023-05-28T12:30:00.0000000Z",
 		price_open: 1.00027,
 		price_high: 1.00028,
@@ -2780,7 +2780,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00027,
 	},
 	{
-		time_period_start: "2023-05-28T11:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T11:30:00.0000000Z"),
 		time_period_end: "2023-05-28T12:00:00.0000000Z",
 		price_open: 1.00026,
 		price_high: 1.00036,
@@ -2788,7 +2788,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00027,
 	},
 	{
-		time_period_start: "2023-05-28T11:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T11:00:00.0000000Z"),
 		time_period_end: "2023-05-28T11:30:00.0000000Z",
 		price_open: 1.00029,
 		price_high: 1.00029,
@@ -2796,7 +2796,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.0002,
 	},
 	{
-		time_period_start: "2023-05-28T10:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T10:30:00.0000000Z"),
 		time_period_end: "2023-05-28T11:00:00.0000000Z",
 		price_open: 1.00021,
 		price_high: 1.00029,
@@ -2804,7 +2804,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00029,
 	},
 	{
-		time_period_start: "2023-05-28T10:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T10:00:00.0000000Z"),
 		time_period_end: "2023-05-28T10:30:00.0000000Z",
 		price_open: 1.00028,
 		price_high: 1.0003,
@@ -2812,7 +2812,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00019,
 	},
 	{
-		time_period_start: "2023-05-28T09:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T09:30:00.0000000Z"),
 		time_period_end: "2023-05-28T10:00:00.0000000Z",
 		price_open: 1.0003,
 		price_high: 1.00031,
@@ -2820,7 +2820,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.0003,
 	},
 	{
-		time_period_start: "2023-05-28T09:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T09:00:00.0000000Z"),
 		time_period_end: "2023-05-28T09:30:00.0000000Z",
 		price_open: 1.0003,
 		price_high: 1.00031,
@@ -2828,7 +2828,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00031,
 	},
 	{
-		time_period_start: "2023-05-28T08:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T08:30:00.0000000Z"),
 		time_period_end: "2023-05-28T09:00:00.0000000Z",
 		price_open: 1.00031,
 		price_high: 1.00031,
@@ -2836,7 +2836,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00031,
 	},
 	{
-		time_period_start: "2023-05-28T08:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T08:00:00.0000000Z"),
 		time_period_end: "2023-05-28T08:30:00.0000000Z",
 		price_open: 1.00025,
 		price_high: 1.00034,
@@ -2844,7 +2844,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00031,
 	},
 	{
-		time_period_start: "2023-05-28T07:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T07:30:00.0000000Z"),
 		time_period_end: "2023-05-28T08:00:00.0000000Z",
 		price_open: 1.00026,
 		price_high: 1.00026,
@@ -2852,7 +2852,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00025,
 	},
 	{
-		time_period_start: "2023-05-28T07:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T07:00:00.0000000Z"),
 		time_period_end: "2023-05-28T07:30:00.0000000Z",
 		price_open: 1.00026,
 		price_high: 1.00026,
@@ -2860,7 +2860,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00025,
 	},
 	{
-		time_period_start: "2023-05-28T06:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T06:30:00.0000000Z"),
 		time_period_end: "2023-05-28T07:00:00.0000000Z",
 		price_open: 1.00024,
 		price_high: 1.00026,
@@ -2868,7 +2868,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00026,
 	},
 	{
-		time_period_start: "2023-05-28T06:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T06:00:00.0000000Z"),
 		time_period_end: "2023-05-28T06:30:00.0000000Z",
 		price_open: 1.00025,
 		price_high: 1.00026,
@@ -2876,7 +2876,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00024,
 	},
 	{
-		time_period_start: "2023-05-28T05:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T05:30:00.0000000Z"),
 		time_period_end: "2023-05-28T06:00:00.0000000Z",
 		price_open: 1.00026,
 		price_high: 1.00026,
@@ -2884,7 +2884,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00026,
 	},
 	{
-		time_period_start: "2023-05-28T05:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T05:00:00.0000000Z"),
 		time_period_end: "2023-05-28T05:30:00.0000000Z",
 		price_open: 1.00026,
 		price_high: 1.00027,
@@ -2892,7 +2892,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00027,
 	},
 	{
-		time_period_start: "2023-05-28T04:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T04:30:00.0000000Z"),
 		time_period_end: "2023-05-28T05:00:00.0000000Z",
 		price_open: 1.00026,
 		price_high: 1.0003,
@@ -2900,7 +2900,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00026,
 	},
 	{
-		time_period_start: "2023-05-28T04:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T04:00:00.0000000Z"),
 		time_period_end: "2023-05-28T04:30:00.0000000Z",
 		price_open: 1.00027,
 		price_high: 1.00029,
@@ -2908,7 +2908,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00029,
 	},
 	{
-		time_period_start: "2023-05-28T03:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T03:30:00.0000000Z"),
 		time_period_end: "2023-05-28T04:00:00.0000000Z",
 		price_open: 1.00027,
 		price_high: 1.00027,
@@ -2916,7 +2916,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00026,
 	},
 	{
-		time_period_start: "2023-05-28T03:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T03:00:00.0000000Z"),
 		time_period_end: "2023-05-28T03:30:00.0000000Z",
 		price_open: 1.00023,
 		price_high: 1.00028,
@@ -2924,7 +2924,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00028,
 	},
 	{
-		time_period_start: "2023-05-28T02:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T02:30:00.0000000Z"),
 		time_period_end: "2023-05-28T03:00:00.0000000Z",
 		price_open: 1.00025,
 		price_high: 1.0003,
@@ -2932,7 +2932,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00026,
 	},
 	{
-		time_period_start: "2023-05-28T02:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T02:00:00.0000000Z"),
 		time_period_end: "2023-05-28T02:30:00.0000000Z",
 		price_open: 1.00025,
 		price_high: 1.0003,
@@ -2940,7 +2940,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.0003,
 	},
 	{
-		time_period_start: "2023-05-28T01:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T01:30:00.0000000Z"),
 		time_period_end: "2023-05-28T02:00:00.0000000Z",
 		price_open: 1.00023,
 		price_high: 1.00028,
@@ -2948,7 +2948,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00025,
 	},
 	{
-		time_period_start: "2023-05-28T01:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T01:00:00.0000000Z"),
 		time_period_end: "2023-05-28T01:30:00.0000000Z",
 		price_open: 1.0004,
 		price_high: 1.0004,
@@ -2956,7 +2956,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.0001,
 	},
 	{
-		time_period_start: "2023-05-28T00:30:00.0000000Z",
+		time_period_start: new Date("2023-05-28T00:30:00.0000000Z"),
 		time_period_end: "2023-05-28T01:00:00.0000000Z",
 		price_open: 1.00041,
 		price_high: 1.0005,
@@ -2964,7 +2964,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00042,
 	},
 	{
-		time_period_start: "2023-05-28T00:00:00.0000000Z",
+		time_period_start: new Date("2023-05-28T00:00:00.0000000Z"),
 		time_period_end: "2023-05-28T00:30:00.0000000Z",
 		price_open: 1.00041,
 		price_high: 1.00042,
@@ -2972,7 +2972,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00041,
 	},
 	{
-		time_period_start: "2023-05-27T23:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T23:30:00.0000000Z"),
 		time_period_end: "2023-05-28T00:00:00.0000000Z",
 		price_open: 1.00041,
 		price_high: 1.00042,
@@ -2980,7 +2980,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00042,
 	},
 	{
-		time_period_start: "2023-05-27T23:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T23:00:00.0000000Z"),
 		time_period_end: "2023-05-27T23:30:00.0000000Z",
 		price_open: 1.00038,
 		price_high: 1.00046,
@@ -2988,7 +2988,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00046,
 	},
 	{
-		time_period_start: "2023-05-27T22:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T22:30:00.0000000Z"),
 		time_period_end: "2023-05-27T23:00:00.0000000Z",
 		price_open: 1.00033,
 		price_high: 1.00039,
@@ -2996,7 +2996,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00039,
 	},
 	{
-		time_period_start: "2023-05-27T22:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T22:00:00.0000000Z"),
 		time_period_end: "2023-05-27T22:30:00.0000000Z",
 		price_open: 1.00043,
 		price_high: 1.00043,
@@ -3004,7 +3004,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00034,
 	},
 	{
-		time_period_start: "2023-05-27T21:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T21:30:00.0000000Z"),
 		time_period_end: "2023-05-27T22:00:00.0000000Z",
 		price_open: 1.00043,
 		price_high: 1.00043,
@@ -3012,7 +3012,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00042,
 	},
 	{
-		time_period_start: "2023-05-27T21:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T21:00:00.0000000Z"),
 		time_period_end: "2023-05-27T21:30:00.0000000Z",
 		price_open: 1.00038,
 		price_high: 1.00043,
@@ -3020,7 +3020,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00042,
 	},
 	{
-		time_period_start: "2023-05-27T20:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T20:30:00.0000000Z"),
 		time_period_end: "2023-05-27T21:00:00.0000000Z",
 		price_open: 1.00037,
 		price_high: 1.00038,
@@ -3028,7 +3028,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00036,
 	},
 	{
-		time_period_start: "2023-05-27T20:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T20:00:00.0000000Z"),
 		time_period_end: "2023-05-27T20:30:00.0000000Z",
 		price_open: 1.00034,
 		price_high: 1.00037,
@@ -3036,7 +3036,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00036,
 	},
 	{
-		time_period_start: "2023-05-27T19:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T19:30:00.0000000Z"),
 		time_period_end: "2023-05-27T20:00:00.0000000Z",
 		price_open: 1.00036,
 		price_high: 1.00037,
@@ -3044,7 +3044,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00037,
 	},
 	{
-		time_period_start: "2023-05-27T19:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T19:00:00.0000000Z"),
 		time_period_end: "2023-05-27T19:30:00.0000000Z",
 		price_open: 1.00034,
 		price_high: 1.00035,
@@ -3052,7 +3052,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00035,
 	},
 	{
-		time_period_start: "2023-05-27T18:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T18:30:00.0000000Z"),
 		time_period_end: "2023-05-27T19:00:00.0000000Z",
 		price_open: 1.00027,
 		price_high: 1.00031,
@@ -3060,7 +3060,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00031,
 	},
 	{
-		time_period_start: "2023-05-27T18:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T18:00:00.0000000Z"),
 		time_period_end: "2023-05-27T18:30:00.0000000Z",
 		price_open: 1.00026,
 		price_high: 1.00032,
@@ -3068,7 +3068,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00027,
 	},
 	{
-		time_period_start: "2023-05-27T17:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T17:30:00.0000000Z"),
 		time_period_end: "2023-05-27T18:00:00.0000000Z",
 		price_open: 1.0003,
 		price_high: 1.00033,
@@ -3076,7 +3076,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.0003,
 	},
 	{
-		time_period_start: "2023-05-27T17:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T17:00:00.0000000Z"),
 		time_period_end: "2023-05-27T17:30:00.0000000Z",
 		price_open: 1.00028,
 		price_high: 1.0003,
@@ -3084,7 +3084,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00029,
 	},
 	{
-		time_period_start: "2023-05-27T16:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T16:30:00.0000000Z"),
 		time_period_end: "2023-05-27T17:00:00.0000000Z",
 		price_open: 1.00029,
 		price_high: 1.0003,
@@ -3092,7 +3092,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.0003,
 	},
 	{
-		time_period_start: "2023-05-27T16:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T16:00:00.0000000Z"),
 		time_period_end: "2023-05-27T16:30:00.0000000Z",
 		price_open: 1.00029,
 		price_high: 1.00031,
@@ -3100,7 +3100,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00031,
 	},
 	{
-		time_period_start: "2023-05-27T15:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T15:30:00.0000000Z"),
 		time_period_end: "2023-05-27T16:00:00.0000000Z",
 		price_open: 1.00031,
 		price_high: 1.0004,
@@ -3108,7 +3108,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.0003,
 	},
 	{
-		time_period_start: "2023-05-27T15:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T15:00:00.0000000Z"),
 		time_period_end: "2023-05-27T15:30:00.0000000Z",
 		price_open: 1.00032,
 		price_high: 1.00034,
@@ -3116,7 +3116,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00031,
 	},
 	{
-		time_period_start: "2023-05-27T14:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T14:30:00.0000000Z"),
 		time_period_end: "2023-05-27T15:00:00.0000000Z",
 		price_open: 1.00032,
 		price_high: 1.00035,
@@ -3124,7 +3124,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00031,
 	},
 	{
-		time_period_start: "2023-05-27T14:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T14:00:00.0000000Z"),
 		time_period_end: "2023-05-27T14:30:00.0000000Z",
 		price_open: 1.00038,
 		price_high: 1.00038,
@@ -3132,7 +3132,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00031,
 	},
 	{
-		time_period_start: "2023-05-27T13:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T13:30:00.0000000Z"),
 		time_period_end: "2023-05-27T14:00:00.0000000Z",
 		price_open: 1.00031,
 		price_high: 1.00038,
@@ -3140,7 +3140,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00038,
 	},
 	{
-		time_period_start: "2023-05-27T13:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T13:00:00.0000000Z"),
 		time_period_end: "2023-05-27T13:30:00.0000000Z",
 		price_open: 1.00031,
 		price_high: 1.00031,
@@ -3148,7 +3148,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00031,
 	},
 	{
-		time_period_start: "2023-05-27T12:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T12:30:00.0000000Z"),
 		time_period_end: "2023-05-27T13:00:00.0000000Z",
 		price_open: 1.00032,
 		price_high: 1.00032,
@@ -3156,7 +3156,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.0003,
 	},
 	{
-		time_period_start: "2023-05-27T12:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T12:00:00.0000000Z"),
 		time_period_end: "2023-05-27T12:30:00.0000000Z",
 		price_open: 1.00036,
 		price_high: 1.00036,
@@ -3164,7 +3164,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00028,
 	},
 	{
-		time_period_start: "2023-05-27T11:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T11:30:00.0000000Z"),
 		time_period_end: "2023-05-27T12:00:00.0000000Z",
 		price_open: 1.00034,
 		price_high: 1.00036,
@@ -3172,7 +3172,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00036,
 	},
 	{
-		time_period_start: "2023-05-27T11:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T11:00:00.0000000Z"),
 		time_period_end: "2023-05-27T11:30:00.0000000Z",
 		price_open: 1.00038,
 		price_high: 1.0004,
@@ -3180,7 +3180,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00036,
 	},
 	{
-		time_period_start: "2023-05-27T10:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T10:30:00.0000000Z"),
 		time_period_end: "2023-05-27T11:00:00.0000000Z",
 		price_open: 1.00038,
 		price_high: 1.00038,
@@ -3188,7 +3188,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00031,
 	},
 	{
-		time_period_start: "2023-05-27T10:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T10:00:00.0000000Z"),
 		time_period_end: "2023-05-27T10:30:00.0000000Z",
 		price_open: 1.00036,
 		price_high: 1.0004,
@@ -3196,7 +3196,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00038,
 	},
 	{
-		time_period_start: "2023-05-27T09:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T09:30:00.0000000Z"),
 		time_period_end: "2023-05-27T10:00:00.0000000Z",
 		price_open: 1.00031,
 		price_high: 1.00035,
@@ -3204,7 +3204,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00035,
 	},
 	{
-		time_period_start: "2023-05-27T09:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T09:00:00.0000000Z"),
 		time_period_end: "2023-05-27T09:30:00.0000000Z",
 		price_open: 1.00037,
 		price_high: 1.00043,
@@ -3212,7 +3212,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00028,
 	},
 	{
-		time_period_start: "2023-05-27T08:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T08:30:00.0000000Z"),
 		time_period_end: "2023-05-27T09:00:00.0000000Z",
 		price_open: 1.00037,
 		price_high: 1.0004,
@@ -3220,7 +3220,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00036,
 	},
 	{
-		time_period_start: "2023-05-27T08:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T08:00:00.0000000Z"),
 		time_period_end: "2023-05-27T08:30:00.0000000Z",
 		price_open: 1.00035,
 		price_high: 1.00042,
@@ -3228,7 +3228,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00037,
 	},
 	{
-		time_period_start: "2023-05-27T07:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T07:30:00.0000000Z"),
 		time_period_end: "2023-05-27T08:00:00.0000000Z",
 		price_open: 1.00035,
 		price_high: 1.00035,
@@ -3236,7 +3236,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00035,
 	},
 	{
-		time_period_start: "2023-05-27T07:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T07:00:00.0000000Z"),
 		time_period_end: "2023-05-27T07:30:00.0000000Z",
 		price_open: 1.00036,
 		price_high: 1.00036,
@@ -3244,7 +3244,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00035,
 	},
 	{
-		time_period_start: "2023-05-27T06:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T06:30:00.0000000Z"),
 		time_period_end: "2023-05-27T07:00:00.0000000Z",
 		price_open: 1.00037,
 		price_high: 1.00037,
@@ -3252,7 +3252,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00036,
 	},
 	{
-		time_period_start: "2023-05-27T06:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T06:00:00.0000000Z"),
 		time_period_end: "2023-05-27T06:30:00.0000000Z",
 		price_open: 1.00037,
 		price_high: 1.00038,
@@ -3260,7 +3260,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00037,
 	},
 	{
-		time_period_start: "2023-05-27T05:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T05:30:00.0000000Z"),
 		time_period_end: "2023-05-27T06:00:00.0000000Z",
 		price_open: 1.00037,
 		price_high: 1.00037,
@@ -3268,7 +3268,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00037,
 	},
 	{
-		time_period_start: "2023-05-27T05:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T05:00:00.0000000Z"),
 		time_period_end: "2023-05-27T05:30:00.0000000Z",
 		price_open: 1.00036,
 		price_high: 1.00036,
@@ -3276,7 +3276,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00035,
 	},
 	{
-		time_period_start: "2023-05-27T04:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T04:30:00.0000000Z"),
 		time_period_end: "2023-05-27T05:00:00.0000000Z",
 		price_open: 1.00033,
 		price_high: 1.00036,
@@ -3284,7 +3284,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00036,
 	},
 	{
-		time_period_start: "2023-05-27T04:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T04:00:00.0000000Z"),
 		time_period_end: "2023-05-27T04:30:00.0000000Z",
 		price_open: 1.0003,
 		price_high: 1.00033,
@@ -3292,7 +3292,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00033,
 	},
 	{
-		time_period_start: "2023-05-27T03:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T03:30:00.0000000Z"),
 		time_period_end: "2023-05-27T04:00:00.0000000Z",
 		price_open: 1.00028,
 		price_high: 1.0003,
@@ -3300,7 +3300,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00029,
 	},
 	{
-		time_period_start: "2023-05-27T03:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T03:00:00.0000000Z"),
 		time_period_end: "2023-05-27T03:30:00.0000000Z",
 		price_open: 1.00031,
 		price_high: 1.00032,
@@ -3308,7 +3308,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00032,
 	},
 	{
-		time_period_start: "2023-05-27T02:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T02:30:00.0000000Z"),
 		time_period_end: "2023-05-27T03:00:00.0000000Z",
 		price_open: 1.00036,
 		price_high: 1.00036,
@@ -3316,7 +3316,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00029,
 	},
 	{
-		time_period_start: "2023-05-27T02:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T02:00:00.0000000Z"),
 		time_period_end: "2023-05-27T02:30:00.0000000Z",
 		price_open: 1.00035,
 		price_high: 1.00035,
@@ -3324,7 +3324,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00035,
 	},
 	{
-		time_period_start: "2023-05-27T01:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T01:30:00.0000000Z"),
 		time_period_end: "2023-05-27T02:00:00.0000000Z",
 		price_open: 1.00032,
 		price_high: 1.00034,
@@ -3332,7 +3332,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00034,
 	},
 	{
-		time_period_start: "2023-05-27T01:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T01:00:00.0000000Z"),
 		time_period_end: "2023-05-27T01:30:00.0000000Z",
 		price_open: 1.00036,
 		price_high: 1.00036,
@@ -3340,7 +3340,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00031,
 	},
 	{
-		time_period_start: "2023-05-27T00:30:00.0000000Z",
+		time_period_start: new Date("2023-05-27T00:30:00.0000000Z"),
 		time_period_end: "2023-05-27T01:00:00.0000000Z",
 		price_open: 1.00036,
 		price_high: 1.00036,
@@ -3348,7 +3348,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00036,
 	},
 	{
-		time_period_start: "2023-05-27T00:00:00.0000000Z",
+		time_period_start: new Date("2023-05-27T00:00:00.0000000Z"),
 		time_period_end: "2023-05-27T00:30:00.0000000Z",
 		price_open: 1.00036,
 		price_high: 1.00037,
@@ -3356,7 +3356,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00035,
 	},
 	{
-		time_period_start: "2023-05-26T23:30:00.0000000Z",
+		time_period_start: new Date("2023-05-26T23:30:00.0000000Z"),
 		time_period_end: "2023-05-27T00:00:00.0000000Z",
 		price_open: 1.00033,
 		price_high: 1.00035,
@@ -3364,7 +3364,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00033,
 	},
 	{
-		time_period_start: "2023-05-26T23:00:00.0000000Z",
+		time_period_start: new Date("2023-05-26T23:00:00.0000000Z"),
 		time_period_end: "2023-05-26T23:30:00.0000000Z",
 		price_open: 1.00035,
 		price_high: 1.00035,
@@ -3372,7 +3372,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00033,
 	},
 	{
-		time_period_start: "2023-05-26T22:30:00.0000000Z",
+		time_period_start: new Date("2023-05-26T22:30:00.0000000Z"),
 		time_period_end: "2023-05-26T23:00:00.0000000Z",
 		price_open: 1.00023,
 		price_high: 1.00035,
@@ -3380,7 +3380,7 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00034,
 	},
 	{
-		time_period_start: "2023-05-26T22:00:00.0000000Z",
+		time_period_start: new Date("2023-05-26T22:00:00.0000000Z"),
 		time_period_end: "2023-05-26T22:30:00.0000000Z",
 		price_open: 1.00024,
 		price_high: 1.00024,
@@ -3388,3 +3388,57 @@ export const BlokDefaultTetherData = [
 		price_close: 1.00023,
 	},
 ];
+
+// LineSeries Graph construct
+export const lineCustomSeries = [
+	{
+		dataSource: BlokDefaultBitCoinData.slice(0, 30),
+		xName: "time_period_start",
+		yName: "price_high",
+		name: "Bitcoin",
+		width: "2",
+		marker: { visible: true, width: 10, height: 10 },
+		type: "Line",
+	},
+
+	{
+		dataSource: BlokDefaultEthereumData.slice(0, 30),
+		xName: "time_period_start",
+		yName: "price_high",
+		name: "Ethereum",
+		width: "2",
+		marker: { visible: true, width: 10, height: 10 },
+		type: "Line",
+	},
+
+	{
+		dataSource: BlokDefaultTetherData.slice(0, 30),
+		xName: "time_period_start",
+		yName: "price_high",
+		name: "Tether",
+		width: "2",
+		marker: { visible: true, width: 10, height: 10 },
+		type: "Line",
+	},
+];
+
+export const LinePrimaryXAxis = {
+	valueType: "DateTime",
+	labelFormat: "y",
+	edgeLabelPlacement: "Shift",
+	majorGridLines: { width: 0 },
+	background: "white",
+};
+
+export const LinePrimaryYAxis = {
+	labelFormat: "{value} USD",
+	rangePadding: "None",
+	// minimum: 0,
+	// maximum: 100,
+	// interval: 20,
+	lineStyle: { width: 0 },
+	majorTickLines: { width: 0 },
+	minorTickLines: { width: 0 },
+};
+
+// End of LineSeries Graph construct
