@@ -184,14 +184,17 @@ export const BlokTransactionsData = [
 export const BlokRangeSelectors = [
 	{
 		range_value: "1HRS",
+        limit: 24,
 		text_value: "1D",
 	},
 	{
 		range_value: "12HRS",
+        limit: 14,
 		text_value: "7D",
 	},
 	{
 		range_value: "1DAYS",
+        limit: 30,
 		text_value: "1M",
 	},
 ];
