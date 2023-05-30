@@ -2,12 +2,15 @@ import React from 'react'
 import BlokNavbar from './BlokNavbar'
 import BlokDashboard from './BlokDashboard'
 
-const BlokMain = () => {
+const BlokMain = ({activeMenu, setActiveMenu}) => {
   return (
-    <div className='flex flex-col'>
-        <BlokNavbar />
+    <main className='bg-white dark:bg-dark-mode relative w-full h-screen overflow-scroll'>
+        <BlokNavbar
+            activeMenu={activeMenu}
+            setActiveMenu={setActiveMenu}
+        />
         <BlokDashboard />
-    </div>
+    </main>
   )
 }
 
