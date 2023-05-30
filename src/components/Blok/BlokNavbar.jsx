@@ -23,13 +23,13 @@ const BlokNavbar = ({ activeMenu, setActiveMenu }) => {
             <div className=" lg:hidden">
                 <button
                     onClick={() => (setSubNavigation(prev => !prev))}
-                    className='relative w-[40px] h-[40px] flex justify-center items-center border before:h-[40px] before:w-[40px] before:absolute before:-top-1 before:-right-1 before:rotate-6 before:border hover:before:top-0 hover:before:right-0 hover:before:-rotate-12 hover:shadow-md hover:before:shadow-md'>
-                    <img src={BlockBalls} alt="" />
+                    className='relative w-[40px] h-[40px] flex justify-center items-center border before:h-[40px] before:w-[40px] before:absolute before:-top-1 before:-right-1 before:rotate-6 before:border hover:before:top-0 hover:before:right-0 hover:before:-rotate-12 hover:shadow-md hover:before:shadow-md after:focus:bg-transparent focus:bg-transparent'>
+                    <img src={BlockBalls} alt="submenu" />
                 </button>
 
             </div>
 
-            <div className={`flex flex-col gap-5 absolute top-[70px] right-2 items-center bg-transparent shadow-md p-5 w-[270px] rounded-8 lg:flex-row lg:justify-end lg:relative lg:top-0 lg:right-0 lg:w-full lg:shadow-none lg:p-0 ${!subNavigation ? 'hidden' : 'block'} lg:flex`}>
+            <div className={`flex flex-col gap-5 absolute top-[70px] bg-white dark:bg-dark-mode z-[9000] right-2 items-center bg-transparent shadow-md p-5 w-[270px] rounded-8 lg:flex-row lg:justify-end lg:relative lg:top-0 lg:right-0 lg:w-full lg:shadow-none lg:p-0 ${!subNavigation ? 'hidden' : 'block'} lg:flex`}>
 
                 <div className="flex items-center relative">
                     <img src={SearchIcon} alt="" className='absolute z-[5] ms-2 w-[16px] h-[16px]' />
