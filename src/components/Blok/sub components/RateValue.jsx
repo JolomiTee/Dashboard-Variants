@@ -28,7 +28,7 @@ const RateValue = ({ crypto }) => {
   useEffect(() => {
     const timer = setInterval(() => {
       apiFetch();
-    }, 120000);
+    }, 30000);
 
     return () => {
       clearInterval(timer);
