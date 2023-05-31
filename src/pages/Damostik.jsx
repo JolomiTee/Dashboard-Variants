@@ -2,7 +2,7 @@ import React from 'react'
 
 const Damostik = () => {
   return (
-    <div>Damostik</div>
+    <div>Building Damostik</div>
   )
 }
 
