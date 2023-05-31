@@ -3,6 +3,7 @@ import BlokAssetOverview from './sub components/BlokAssetOverview'
 import BlokAnalytics from './sub components/BlokAnalytics'
 import BlokOperations from './sub components/BlokOperations'
 import BlokTransactions from './sub components/BlokTransactions'
+import { Link } from 'react-router-dom'
 
 const BlokDashboard = () => {
     return (
@@ -16,7 +17,8 @@ const BlokDashboard = () => {
                 <BlokTransactions />
             </div>
             <div className="dark:text-white mt-10 rounded-16 py-5 text-center bg-green-50 dark:bg-searchbar-dark">
-                Developed, JolomiTee 2023. <br /> Original Figma designs by Ogunya Marvelous
+                Developed, JolomiTee 2023. <br /> Original Figma designs by Ogunya Marvelous <br />
+                <Link className='text-blok-dark-green font-bold' to='damostik'>Go to the next page</Link>
             </div>
         </div>
     )
