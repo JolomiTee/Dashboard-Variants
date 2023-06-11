@@ -2,6 +2,7 @@ import Dashboard from './icons/DashboardIcon.svg'
 import MyWallet from './icons/MyWallet.svg'
 import Transactions from './icons/Transactions.svg'
 import Analytics from './icons/Analytics.svg'
+import Notification from './icons/NotificationBing.svg'
 import Account from './icons/Account.svg'
 import Support from './icons/Support.svg'
 import Logout from './icons/Logout.svg'
@@ -12,7 +13,7 @@ import ConvertAirtime from './icons/ConvertAirtime.svg'
 import TransferToWallet from './icons/TransferToWallet.svg'
 import CableSub from './icons/CableTvSub.svg'
 
-export const DashboardData = [
+export const DamsotikDashboardData = [
     [
 
         {
@@ -52,7 +53,7 @@ export const DashboardData = [
     ]
 ]
 
-export const Services = [
+export const DamostikServices = [
     {
         img: Wifi,
         item: 'Buy Data',
