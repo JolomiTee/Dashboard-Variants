@@ -1,8 +1,16 @@
 import React from 'react'
+import DamostikNavbar from './DamostikNavbar'
+import DamostikDashboard from './DamostikDashboard'
 
-const DamostikMain = () => {
+const DamostikMain = ({activeMenu, setActiveMenu}) => {
   return (
-    <div>DamostikMain</div>
+    <main className='bg-white dark:bg-dark-mode relative w-full h-screen overflow-scroll'>
+        <DamostikNavbar
+            activeMenu={activeMenu}
+            setActiveMenu={setActiveMenu}
+        />
+        <DamostikDashboard />
+    </main>
   )
 }
 
