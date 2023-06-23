@@ -3,7 +3,7 @@ import { DamostikServicesIcons } from '../../../assets/Damostik/data'
 
 const DamostikServices = () => {
   return (
-    <div id='damostikServices' className='mt-10'>
+    <div id='damostikServices' className='mt-3'>
         <h2 className="text-damostik-black text-20 font-medium leading-7 mb-5">
             Services
         </h2>

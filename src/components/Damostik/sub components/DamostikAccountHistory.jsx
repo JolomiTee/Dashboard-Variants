@@ -4,12 +4,12 @@ import { DamostikHistoryData, accountHistoryGrid } from '../../../assets/Damosti
 
 const DamostikAccountHistory = () => {
     return (
-        <div id='accountHistory' className='mt-10'>
+        <div id='accountHistory' className='mt-5'>
             <h2 className="text-damostik-black text-20 font-medium leading-7 mb-5">
                 Account History
             </h2>
 
-            <div className="mt-12 md:mt-0 p-2 md:p-10 bg-white rounded-3xl">
+            <div className="mt-12 md:mt-0 p-2 bg-white">
             <GridComponent
                 dataSource={DamostikHistoryData}
                 allowSorting
