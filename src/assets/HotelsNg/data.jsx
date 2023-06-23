@@ -90,36 +90,36 @@ export const HotelsMenuItems = [
 
 export const OverviewData = [
     {
-        IconBackground: 'hotels-green',
-        AccentColor: 'hotels-green2',
+        IconBackground: 'bg-hotels-green',
+        AccentColor: 'bg-hotels-green2',
         Icon: NewBooking,
         title: 'New Booking',
         Info: 263,
     },
     {
-        IconBackground: 'hotels-blue',
-        AccentColor: 'hotels-blue2',
+        IconBackground: 'bg-hotels-blue',
+        AccentColor: 'bg-hotels-blue2',
         Icon: AvailableRooms,
         title: 'Available Rooms',
         Info: 137,
     },
     {
-        IconBackground: 'hotels-purple',
-        AccentColor: 'hotels-purple2',
+        IconBackground: 'bg-hotels-purple',
+        AccentColor: 'bg-hotels-purple2',
         Icon: Reservation,
         title: 'Reservations',
         Info: 42,
     },
     {
-        IconBackground: 'hotels-orange',
-        AccentColor: 'hotels-orange2',
+        IconBackground: 'bg-hotels-orange',
+        AccentColor: 'bg-hotels-orange2',
         Icon: CheckIns,
         title: 'Check Ins',
         Info: 32,
     },
     {
-        IconBackground: 'hotels-aquamarine',
-        AccentColor: 'hotels-aquamarine2',
+        IconBackground: 'bg-hotels-aquamarine',
+        AccentColor: 'bg-hotels-aquamarine2',
         Icon: CheckOut,
         title: 'Check Outs',
         Info: 18,
@@ -129,7 +129,7 @@ export const OverviewData = [
 export const HotelReviews = [
     {
         Customer: Avatar1,
-        Accent: 'hotels-purple2',
+        Accent: 'bg-hotels-purple2',
         Name: 'John Doe',
         Rating: '5.0',
         Posted: 'Posted on Aug.02.2022, 10:00am',
@@ -137,7 +137,7 @@ export const HotelReviews = [
     },
     {
         Customer: Avatar2,
-        Accent: 'hotels-green2',
+        Accent: 'bg-hotels-green2',
         Name: 'Mary Jane',
         Rating: '4.4',
         Posted: 'Posted on Aug.04.2022, 10:27am',
@@ -145,7 +145,7 @@ export const HotelReviews = [
     },
     {
         Customer: Avatar1,
-        Accent: 'hotels-aquamarine2',
+        Accent: 'bg-hotels-aquamarine2',
         Name: 'Lucas Covid',
         Rating: '4.9',
         Posted: 'Posted on Aug.01.2022, 09:00am',
