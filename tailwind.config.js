@@ -45,6 +45,7 @@ module.exports = {
                 'hotels-letter-black1': '#1E1E1E',
                 'hotels-letter-black2': '#1F1E24',
                 'hotels-grey': '#1F1E2480',
+                'hotels-grey2': '#EDEEEF99',
                 'hotels-red': '#FF5E73'
 
             },

@@ -44,7 +44,7 @@ export const HotelsMenuItems = [
         ]
     },
     {
-        MenuHead: 'Feeback',
+        MenuHead: 'Feedback',
         MenuItems : [
             {
                 image: Reports,
