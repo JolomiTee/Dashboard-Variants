@@ -6,11 +6,13 @@ import DamostikAccountHistory from './sub components/DamostikAccountHistory'
 
 const DamostikDashboard = () => {
   return (
-    <div className='px-4 md:px-[32px] py-5 md:py-[29px] mt-16 xl:mt-[100px]'>
-            <div className="flex flex-col lg:justify-between lg:gap-8 xl:flex-row mb-3 xl:mb-2">
+    <div className='px-4 md:px-[32px] py-5 md:py-[29px] mt-16 xl:mt-[80px]'>
+            <div className="flex flex-col lg:justify-between lg:gap-8 mb-3 xl:mb-2">
                 <DamostikAssetOverview />
-                <DamostikServices />
-                <DamostikAccountHistory />
+                <section className='flex flex-col'>
+                    <DamostikServices />
+                    <DamostikAccountHistory />
+                </section>
             </div>
             <div className="dark:text-white mt-10 rounded-16 py-5 text-center bg-green-50 dark:bg-searchbar-dark">
                 Developed, JolomiTee 2023. <br /> Original Figma designs by Ogunya Marvelous <br />

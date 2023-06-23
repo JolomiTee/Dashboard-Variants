@@ -35,6 +35,7 @@ module.exports = {
                 'damostik-grey': '#2A2A2A',
                 'damostik-black': '#1E1E1E',
                 'damostik-faint-blue': '#5F6980',
+                'damostik-light-green': '#CFF0DB',
                 'damostik-dark-green': '#008C7A',
                 'damostik-success': '#008C7A',
                 'damostik-pending': '#F5D020',
@@ -60,6 +61,7 @@ module.exports = {
 			},
 			borderColor: {
 				'blok-color': "#CBCBCB",
+                'damostik-light-green': '#CFF0DB',
 			},
             borderRadius: {
                 8: '8px',
