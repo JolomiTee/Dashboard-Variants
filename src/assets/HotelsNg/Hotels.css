@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Visuelt Pro';
+    src: url('./fonts/VisueltPro-Regular.eot') format('eot');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Visuelt Pro';
+    src: url('./fonts/VisueltPro-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Product Sans';
+    src: url('./fonts/Product\ Sans\ Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Visuelt Pro';
+    src: url('./fonts/VisueltPro-Regular.woff') format('woff');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}

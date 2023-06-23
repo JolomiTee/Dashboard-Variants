@@ -7,7 +7,8 @@ module.exports = {
 		fontFamily: {
 			cabinet: ["CabinetGrotesk-Medium", "sans-serif"],
 			'sp-display': ["SP Pro Display", "sans-serif"],
-            'product-sans': ["Product Sans", "sans-serif"]
+            'product-sans': ["Product Sans", "sans-serif"],
+            'visuelt-pro': ["Visuelt Pro", "sans-serif"],
 		},
 		extend: {
             screens: {
@@ -39,7 +40,13 @@ module.exports = {
                 'damostik-dark-green': '#008C7A',
                 'damostik-success': '#008C7A',
                 'damostik-pending': '#F5D020',
-                'damostik-failed': '#FF5F76'
+                'damostik-failed': '#FF5F76',
+
+                'hotels-letter-black1': '#1E1E1E',
+                'hotels-letter-black2': '#1F1E24',
+                'hotels-grey': '#1F1E2480',
+                'hotels-red': '#FF5E73'
+
             },
             fill: {
                 'blok-dark-fill': '#3A3A3A',
@@ -56,6 +63,18 @@ module.exports = {
                 'damostik-main-bg-grey': '#F7F7F7',
                 'damostik-light-green': '#CFF0DB',
                 'damostik-dark-green': '#008C7A',
+
+                'hotels-black': '#1F1E24',
+                'hotels-green': '#29CD39',
+                'hotels-green2': '#DDFEE0',
+                'hotels-blue': '#6377A8',
+                'hotels-blue2': '#D2DFFF',
+                'hotels-purple': '#83F',
+                'hotels-purple2': '#EDE0FF',
+                'hotels-orange': '#FF6634',
+                'hotels-orange2': '#FFF2EE',
+                'hotels-aquamarine': '#33BEFF',
+                'hotels-aquamarine2': '#D2F1FF',
 			},
 			borderWidth: {
 				1: "1px",
@@ -65,6 +84,7 @@ module.exports = {
                 'damostik-light-green': '#CFF0DB',
 			},
             borderRadius: {
+                4: '4px',
                 8: '8px',
                 12: '12px',
                 16: '16px',

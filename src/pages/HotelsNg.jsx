@@ -1,8 +1,12 @@
 import React from 'react'
+import { HotelsContextProvider } from '../context/HotelsContext'
+import Index from '../components/HotelsNg/Index'
 
 const HotelsNg = () => {
   return (
-    <div>HotelsNg</div>
+    <HotelsContextProvider>
+        <Index />
+    </HotelsContextProvider>
   )
 }
 
