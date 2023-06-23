@@ -53,6 +53,7 @@ module.exports = {
                 'searchbar-dark': '#3A3A3A80',
 
                 'damostik-dashboard-grey': '#E3E3E3',
+                'damostik-main-bg-grey': '#F7F7F7',
                 'damostik-light-green': '#CFF0DB',
                 'damostik-dark-green': '#008C7A',
 			},
