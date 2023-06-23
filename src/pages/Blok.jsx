@@ -1,15 +1,12 @@
-import React from 'react'
+import { BlokContextProvider } from '../context/BlokContext'
 import '../assets/Blok/Blok.css'
-import BlokMenu from '../components/Blok/BlokMenu'
-import BlokMain from '../components/Blok/BlokMain'
+import Index from '../components/Blok/Index'
 
 const Blok = () => {
     return (
-        <div className='text-40 flex gap-20'>
-            <BlokMenu />
-            <BlokMain />
-        </div>
-
+        <BlokContextProvider>
+            <Index />
+        </BlokContextProvider>
     )
 }
 
