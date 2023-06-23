@@ -1,6 +1,6 @@
-import React from 'react'
-import Index from '../components/Damostik/Index'
 import { DamostikContextProvider } from '../context/DamostikContext'
+import '../assets/Damostik/Damostik.css'
+import Index from '../components/Damostik/Index'
 
 const Damostik = () => {
   return (
