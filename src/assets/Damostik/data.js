@@ -53,7 +53,7 @@ export const DamsotikDashboardData = [
     ]
 ]
 
-export const DamostikServices = [
+export const DamostikServicesIcons = [
     {
         img: Wifi,
         item: 'Buy Data',
