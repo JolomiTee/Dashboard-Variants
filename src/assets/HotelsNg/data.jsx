@@ -173,7 +173,7 @@ export const HotelReviews = [
         Customer: Avatar2,
         Accent: 'bg-hotels-green2',
         Name: 'Mary Jane',
-        Rating: '4.4',
+        Rating: '4.5',
         Posted: 'Posted on Aug.04.2022, 10:27am',
         Review: 'The location was convenient, but there were not many dining or shopping options nearby.'
     },
@@ -181,7 +181,7 @@ export const HotelReviews = [
         Customer: Avatar1,
         Accent: 'bg-hotels-aquamarine2',
         Name: 'Lucas Covid',
-        Rating: '4.9',
+        Rating: '4.8',
         Posted: 'Posted on Aug.01.2022, 09:00am',
         Review: 'The hotel was okay, nothing special. The room was clean and comfortable, but a bit on the small side. The staff were friendly, but not overly attentive.'
     },

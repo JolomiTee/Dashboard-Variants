@@ -16,7 +16,7 @@ const HotelsDashboard = () => {
                     <HotelExpenses />
                     <ReservationAnalytics />
                 </section>
-                <section className='grid lg:grid-cols-2 lg:gap-x-3'>
+                <section className='grid gap-y-5 lg:flex lg:gap-x-10 '>
                     <HotelCalender />
                     <CustomerReviews />
                 </section>

@@ -19,7 +19,7 @@ const HotelCalendar = () => {
     const onDragStart = (args) => {
         args.navigation.enable = true;
     };
-    return (<div className='schedule-control-section'>
+    return (<div className='schedule-control-section min-w-[300px] max-w-[550px]'>
       <div className='col-lg-9 control-section'>
         <div className='control-wrapper'>
           <ScheduleComponent height='650px' ref={scheduleObj} selectedDate={scheduleData} eventSettings={{ dataSource: data }} dragStart={(onDragStart)}>
