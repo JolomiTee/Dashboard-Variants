@@ -16,7 +16,7 @@ const DamostikDashboard = () => {
             </div>
             <div className="dark:text-white mt-10 rounded-16 py-5 text-center bg-green-50 dark:bg-searchbar-dark">
                 Developed, JolomiTee 2023. <br /> Original Figma designs by Ogunya Marvelous <br />
-                <Link className='text-blok-dark-green font-bold' to='hotelsng'>Go to the next page</Link>
+                <Link className='text-blok-dark-green font-bold' to='/hotelsng'>Go to the next page</Link>
             </div>
         </div>
   )
