@@ -135,6 +135,31 @@ export const HotelExpensesData = [
     { 'x': 'Infrastructure', y: 5.1, text: '5.1%' },
 ];
 
+export const HighReservationIndex = [
+    { x: new Date(2014, 0, 1), y: 41655 },
+    { x: new Date(2015, 0, 1), y: 35774 },
+    { x: new Date(2016, 0, 1), y: 36508 },
+    { x: new Date(2017, 0, 1), y: 26540 },
+    { x: new Date(2018, 0, 1), y: 36456 },
+    { x: new Date(2019, 0, 1), y: 45678 },
+    { x: new Date(2020, 0, 1), y: 37653 },
+    { x: new Date(2021, 0, 1), y: 36733 },
+    { x: new Date(2022, 0, 1), y: 34567 },
+    { x: new Date(2023, 0, 1), y: 47655 }
+];
+export const LowReservationIndex = [
+    { x: new Date(2014, 0, 1), y: 20655 },
+    { x: new Date(2015, 0, 1), y: 19774 },
+    { x: new Date(2016, 0, 1), y: 30508 },
+    { x: new Date(2017, 0, 1), y: 10540 },
+    { x: new Date(2018, 0, 1), y: 22456 },
+    { x: new Date(2019, 0, 1), y: 17678 },
+    { x: new Date(2020, 0, 1), y: 32653 },
+    { x: new Date(2021, 0, 1), y: 28733 },
+    { x: new Date(2022, 0, 1), y: 30567 },
+    { x: new Date(2023, 0, 1), y: 20655 }
+];
+
 export const HotelReviews = [
     {
         Customer: Avatar1,
