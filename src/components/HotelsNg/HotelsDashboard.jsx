@@ -12,11 +12,11 @@ const HotelsDashboard = () => {
     <div className='px-4 md:px-[32px] py-5 md:py-[29px] mt-16 xl:mt-[80px]'>
             <div className="flex flex-col lg:justify-between lg:gap-8 mb-3 xl:mb-2">
                 <HotelsOverview />
-                <section className='flex flex-col lg:flex-row'>
+                <section className='grid lg:flex lg:gap-x-10'>
                     <HotelExpenses />
                     <ReservationAnalytics />
                 </section>
-                <section className='flex flex-col lg:flex-row'>
+                <section className='grid lg:grid-cols-2 lg:gap-x-3'>
                     <HotelCalender />
                     <CustomerReviews />
                 </section>

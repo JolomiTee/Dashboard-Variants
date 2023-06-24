@@ -24,7 +24,7 @@ import Rating from './icons/Rating.svg'
 export const HotelsMenuItems = [
     {
         MenuHead: 'Summary',
-        MenuItems : [
+        MenuItems: [
             {
                 image: Overview,
                 link: 'Overview',
@@ -45,7 +45,7 @@ export const HotelsMenuItems = [
     },
     {
         MenuHead: 'Feedback',
-        MenuItems : [
+        MenuItems: [
             {
                 image: Reports,
                 link: 'Report',
@@ -58,7 +58,7 @@ export const HotelsMenuItems = [
     },
     {
         MenuHead: 'Cashflow',
-        MenuItems : [
+        MenuItems: [
             {
                 image: Finances,
                 link: 'Finances',
@@ -71,7 +71,7 @@ export const HotelsMenuItems = [
     },
     {
         MenuHead: 'Others',
-        MenuItems : [
+        MenuItems: [
             {
                 image: Settings,
                 link: 'Settings',
@@ -125,6 +125,15 @@ export const OverviewData = [
         Info: 18,
     },
 ]
+
+export const HotelExpensesData = [
+    { 'x': 'Utilities', y: 29.4, text: '29.4%' },
+    { 'x': 'Inventory', y: 23.8, text: '23.8%' },
+    { 'x': 'Payroll', y: 18.8, text: '18.8%' },
+    { 'x': 'Insurance', y: 13.9, text: '13.9%' },
+    { 'x': 'Bills', y: 9.0, text: '9.0%' },
+    { 'x': 'Infrastructure', y: 5.1, text: '5.1%' },
+];
 
 export const HotelReviews = [
     {
